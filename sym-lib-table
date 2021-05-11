@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name M17_soundcard-eagle-import)(type Legacy)(uri ${KIPRJMOD}/M17_soundcard-eagle-import.lib)(options "")(descr ""))
+)

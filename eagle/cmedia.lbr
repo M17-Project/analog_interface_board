@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>C-Media Audio ICs Eagle Library.
+                                                                  -----------------------------------------------
+Lib by Dimitri Albino - ALDI Technology www.alditechnology.com</description>
+<packages>
+<package name="LQFP-48">
+<wire x1="-3.375" y1="3.1" x2="-3.1" y2="3.375" width="0.254" layer="21"/>
+<wire x1="-3.1" y1="3.375" x2="3.1" y2="3.375" width="0.254" layer="21"/>
+<wire x1="3.1" y1="3.375" x2="3.375" y2="3.1" width="0.254" layer="21"/>
+<wire x1="3.375" y1="3.1" x2="3.375" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="3.375" y1="-3.1" x2="3.1" y2="-3.375" width="0.254" layer="21"/>
+<wire x1="3.1" y1="-3.375" x2="-3.1" y2="-3.375" width="0.254" layer="21"/>
+<wire x1="-3.1" y1="-3.375" x2="-3.375" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="-3.375" y1="-3.1" x2="-3.375" y2="3.1" width="0.254" layer="21"/>
+<circle x="-2" y="-2" radius="0.6" width="0.254" layer="21"/>
+<smd name="1" x="-2.75" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="2" x="-2.25" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="3" x="-1.75" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="4" x="-1.25" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="5" x="-0.75" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="6" x="-0.25" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="7" x="0.25" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="8" x="0.75" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="9" x="1.25" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="10" x="1.75" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="11" x="2.25" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="12" x="2.75" y="-4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="13" x="4.25" y="-2.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="14" x="4.25" y="-2.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="15" x="4.25" y="-1.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="16" x="4.25" y="-1.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="17" x="4.25" y="-0.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="18" x="4.25" y="-0.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="19" x="4.25" y="0.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="20" x="4.25" y="0.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="21" x="4.25" y="1.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="22" x="4.25" y="1.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="23" x="4.25" y="2.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="24" x="4.25" y="2.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="25" x="2.75" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="26" x="2.25" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="27" x="1.75" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="28" x="1.25" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="29" x="0.75" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="30" x="0.25" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="31" x="-0.25" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="32" x="-0.75" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="33" x="-1.25" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="34" x="-1.75" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="35" x="-2.25" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="36" x="-2.75" y="4.25" dx="0.3175" dy="1.016" layer="1"/>
+<smd name="37" x="-4.25" y="2.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="38" x="-4.25" y="2.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="39" x="-4.25" y="1.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="40" x="-4.25" y="1.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="41" x="-4.25" y="0.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="42" x="-4.25" y="0.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="43" x="-4.25" y="-0.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="44" x="-4.25" y="-0.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="45" x="-4.25" y="-1.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="46" x="-4.25" y="-1.75" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="47" x="-4.25" y="-2.25" dx="1.016" dy="0.3175" layer="1"/>
+<smd name="48" x="-4.25" y="-2.75" dx="1.016" dy="0.3175" layer="1"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.85" y1="-4.5" x2="-2.65" y2="-3.45" layer="51"/>
+<rectangle x1="-2.35" y1="-4.5" x2="-2.15" y2="-3.45" layer="51"/>
+<rectangle x1="-1.85" y1="-4.5" x2="-1.65" y2="-3.45" layer="51"/>
+<rectangle x1="-1.35" y1="-4.5" x2="-1.15" y2="-3.45" layer="51"/>
+<rectangle x1="-0.85" y1="-4.5" x2="-0.65" y2="-3.45" layer="51"/>
+<rectangle x1="-0.35" y1="-4.5" x2="-0.15" y2="-3.45" layer="51"/>
+<rectangle x1="0.15" y1="-4.5" x2="0.35" y2="-3.45" layer="51"/>
+<rectangle x1="0.65" y1="-4.5" x2="0.85" y2="-3.45" layer="51"/>
+<rectangle x1="1.15" y1="-4.5" x2="1.35" y2="-3.45" layer="51"/>
+<rectangle x1="1.65" y1="-4.5" x2="1.85" y2="-3.45" layer="51"/>
+<rectangle x1="2.15" y1="-4.5" x2="2.35" y2="-3.45" layer="51"/>
+<rectangle x1="2.65" y1="-4.5" x2="2.85" y2="-3.45" layer="51"/>
+<rectangle x1="3.45" y1="-2.85" x2="4.5" y2="-2.65" layer="51"/>
+<rectangle x1="3.45" y1="-2.35" x2="4.5" y2="-2.15" layer="51"/>
+<rectangle x1="3.45" y1="-1.85" x2="4.5" y2="-1.65" layer="51"/>
+<rectangle x1="3.45" y1="-1.35" x2="4.5" y2="-1.15" layer="51"/>
+<rectangle x1="3.45" y1="-0.85" x2="4.5" y2="-0.65" layer="51"/>
+<rectangle x1="3.45" y1="-0.35" x2="4.5" y2="-0.15" layer="51"/>
+<rectangle x1="3.45" y1="0.15" x2="4.5" y2="0.35" layer="51"/>
+<rectangle x1="3.45" y1="0.65" x2="4.5" y2="0.85" layer="51"/>
+<rectangle x1="3.45" y1="1.15" x2="4.5" y2="1.35" layer="51"/>
+<rectangle x1="3.45" y1="1.65" x2="4.5" y2="1.85" layer="51"/>
+<rectangle x1="3.45" y1="2.15" x2="4.5" y2="2.35" layer="51"/>
+<rectangle x1="3.45" y1="2.65" x2="4.5" y2="2.85" layer="51"/>
+<rectangle x1="2.65" y1="3.45" x2="2.85" y2="4.5" layer="51"/>
+<rectangle x1="2.15" y1="3.45" x2="2.35" y2="4.5" layer="51"/>
+<rectangle x1="1.65" y1="3.45" x2="1.85" y2="4.5" layer="51"/>
+<rectangle x1="1.15" y1="3.45" x2="1.35" y2="4.5" layer="51"/>
+<rectangle x1="0.65" y1="3.45" x2="0.85" y2="4.5" layer="51"/>
+<rectangle x1="0.15" y1="3.45" x2="0.35" y2="4.5" layer="51"/>
+<rectangle x1="-0.35" y1="3.45" x2="-0.15" y2="4.5" layer="51"/>
+<rectangle x1="-0.85" y1="3.45" x2="-0.65" y2="4.5" layer="51"/>
+<rectangle x1="-1.35" y1="3.45" x2="-1.15" y2="4.5" layer="51"/>
+<rectangle x1="-1.85" y1="3.45" x2="-1.65" y2="4.5" layer="51"/>
+<rectangle x1="-2.35" y1="3.45" x2="-2.15" y2="4.5" layer="51"/>
+<rectangle x1="-2.85" y1="3.45" x2="-2.65" y2="4.5" layer="51"/>
+<rectangle x1="-4.5" y1="2.65" x2="-3.45" y2="2.85" layer="51"/>
+<rectangle x1="-4.5" y1="2.15" x2="-3.45" y2="2.35" layer="51"/>
+<rectangle x1="-4.5" y1="1.65" x2="-3.45" y2="1.85" layer="51"/>
+<rectangle x1="-4.5" y1="1.15" x2="-3.45" y2="1.35" layer="51"/>
+<rectangle x1="-4.5" y1="0.65" x2="-3.45" y2="0.85" layer="51"/>
+<rectangle x1="-4.5" y1="0.15" x2="-3.45" y2="0.35" layer="51"/>
+<rectangle x1="-4.5" y1="-0.35" x2="-3.45" y2="-0.15" layer="51"/>
+<rectangle x1="-4.5" y1="-0.85" x2="-3.45" y2="-0.65" layer="51"/>
+<rectangle x1="-4.5" y1="-1.35" x2="-3.45" y2="-1.15" layer="51"/>
+<rectangle x1="-4.5" y1="-1.85" x2="-3.45" y2="-1.65" layer="51"/>
+<rectangle x1="-4.5" y1="-2.35" x2="-3.45" y2="-2.15" layer="51"/>
+<rectangle x1="-4.5" y1="-2.85" x2="-3.45" y2="-2.65" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CM6300">
+<pin name="01_PSDW" x="-38.1" y="-76.2" length="middle" rot="R90"/>
+<pin name="02_PWRSEL_2" x="-33.02" y="-76.2" length="middle" rot="R90"/>
+<pin name="03_TEST" x="-27.94" y="-76.2" length="middle" rot="R90"/>
+<pin name="04_DVSS" x="-22.86" y="-76.2" length="middle" rot="R90"/>
+<pin name="05_GPIO_1" x="-17.78" y="-76.2" length="middle" rot="R90"/>
+<pin name="06_GPIO_2" x="-12.7" y="-76.2" length="middle" rot="R90"/>
+<pin name="07_GPIO_3" x="-7.62" y="-76.2" length="middle" rot="R90"/>
+<pin name="08_GPIO_4" x="-2.54" y="-76.2" length="middle" rot="R90"/>
+<pin name="09_LED_2" x="2.54" y="-76.2" length="middle" rot="R90"/>
+<pin name="10_LED_1" x="7.62" y="-76.2" length="middle" rot="R90"/>
+<pin name="11_LED_3" x="12.7" y="-76.2" length="middle" rot="R90"/>
+<pin name="12_XTAL_I" x="17.78" y="-76.2" length="middle" rot="R90"/>
+<pin name="13_XTAL_O" x="35.56" y="-58.42" length="middle" rot="R180"/>
+<pin name="14_I2C_SCLK" x="35.56" y="-53.34" length="middle" rot="R180"/>
+<pin name="15_I2C_SDAT" x="35.56" y="-48.26" length="middle" rot="R180"/>
+<pin name="16_DVSS" x="35.56" y="-43.18" length="middle" rot="R180"/>
+<pin name="17_USB_DP" x="35.56" y="-38.1" length="middle" rot="R180"/>
+<pin name="18_USB_DM" x="35.56" y="-33.02" length="middle" rot="R180"/>
+<pin name="19_DVSS" x="35.56" y="-27.94" length="middle" rot="R180"/>
+<pin name="20_REGV_3V3" x="35.56" y="-22.86" length="middle" rot="R180"/>
+<pin name="21_DVDD_5V" x="35.56" y="-17.78" length="middle" rot="R180"/>
+<pin name="22_AVSS" x="35.56" y="-12.7" length="middle" rot="R180"/>
+<pin name="23_MICL" x="35.56" y="-7.62" length="middle" rot="R180"/>
+<pin name="24_MICR" x="35.56" y="-2.54" length="middle" rot="R180"/>
+<pin name="25_VOLADJ" x="17.78" y="15.24" length="middle" rot="R270"/>
+<pin name="26_LINIL" x="12.7" y="15.24" length="middle" rot="R270"/>
+<pin name="27_LINIR" x="7.62" y="15.24" length="middle" rot="R270"/>
+<pin name="28_VREF" x="2.54" y="15.24" length="middle" rot="R270"/>
+<pin name="29_VBIAS_1" x="-2.54" y="15.24" length="middle" rot="R270"/>
+<pin name="30_VBIAS_2" x="-7.62" y="15.24" length="middle" rot="R270"/>
+<pin name="31_AVDD" x="-12.7" y="15.24" length="middle" rot="R270"/>
+<pin name="32_AVSS" x="-17.78" y="15.24" length="middle" rot="R270"/>
+<pin name="33_LNOUTL" x="-22.86" y="15.24" length="middle" rot="R270"/>
+<pin name="34_AVDD" x="-27.94" y="15.24" length="middle" rot="R270"/>
+<pin name="35_LNOUTR" x="-33.02" y="15.24" length="middle" rot="R270"/>
+<pin name="36_AVSS" x="-38.1" y="15.24" length="middle" rot="R270"/>
+<pin name="37_AVDD" x="-55.88" y="-2.54" length="middle"/>
+<pin name="38_AVDD" x="-55.88" y="-7.62" length="middle"/>
+<pin name="39_REGV_4V5" x="-55.88" y="-12.7" length="middle"/>
+<pin name="40_AVSS" x="-55.88" y="-17.78" length="middle"/>
+<pin name="41_MIXER_EN" x="-55.88" y="-22.86" length="middle"/>
+<pin name="42_VOL_UP" x="-55.88" y="-27.94" length="middle"/>
+<pin name="43_VOL_DN" x="-55.88" y="-33.02" length="middle"/>
+<pin name="44_SPDIF_I" x="-55.88" y="-38.1" length="middle"/>
+<pin name="45_MUTE_REC" x="-55.88" y="-43.18" length="middle"/>
+<pin name="46_MUTE_PLAY" x="-55.88" y="-48.26" length="middle"/>
+<pin name="47_SPDIF_O" x="-55.88" y="-53.34" length="middle"/>
+<pin name="48_DVSS" x="-55.88" y="-58.42" length="middle"/>
+<wire x1="-50.8" y1="10.16" x2="30.48" y2="10.16" width="0.254" layer="94"/>
+<wire x1="30.48" y1="10.16" x2="30.48" y2="-71.12" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-71.12" x2="-50.8" y2="-71.12" width="0.254" layer="94"/>
+<wire x1="-50.8" y1="-71.12" x2="-50.8" y2="10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="CM6317A">
+<pin name="01_PSDW" x="-7.62" y="-45.72" length="middle" rot="R90"/>
+<pin name="02_NC" x="-2.54" y="-45.72" length="middle" rot="R90"/>
+<pin name="03_TEST" x="2.54" y="-45.72" length="middle" rot="R90"/>
+<pin name="04_GPIO_1" x="7.62" y="-45.72" length="middle" rot="R90"/>
+<pin name="05_GPIO_2" x="12.7" y="-45.72" length="middle" rot="R90"/>
+<pin name="06_GPIO_3" x="17.78" y="-45.72" length="middle" rot="R90"/>
+<pin name="07_GPIO_4" x="22.86" y="-45.72" length="middle" rot="R90"/>
+<pin name="08_LED_1" x="27.94" y="-45.72" length="middle" rot="R90"/>
+<pin name="09_LED_3" x="33.02" y="-45.72" length="middle" rot="R90"/>
+<pin name="10_XTAL_I" x="38.1" y="-45.72" length="middle" rot="R90"/>
+<pin name="11_XTAL_O" x="43.18" y="-45.72" length="middle" rot="R90"/>
+<pin name="12_NC" x="48.26" y="-45.72" length="middle" rot="R90"/>
+<pin name="13_NC" x="66.04" y="-27.94" length="middle" rot="R180"/>
+<pin name="14_HID_EN" x="66.04" y="-22.86" length="middle" rot="R180"/>
+<pin name="15_NC" x="66.04" y="-17.78" length="middle" rot="R180"/>
+<pin name="16_NC" x="66.04" y="-12.7" length="middle" rot="R180"/>
+<pin name="17_I2C_SCLK" x="66.04" y="-7.62" length="middle" rot="R180"/>
+<pin name="18_I2C_SDAT" x="66.04" y="-2.54" length="middle" rot="R180"/>
+<pin name="19_I2C_INT" x="66.04" y="2.54" length="middle" rot="R180"/>
+<pin name="20_USB_DP" x="66.04" y="7.62" length="middle" rot="R180"/>
+<pin name="21_USB_DM" x="66.04" y="12.7" length="middle" rot="R180"/>
+<pin name="22_DVSS" x="66.04" y="17.78" length="middle" rot="R180"/>
+<pin name="23_REGV_3V3" x="66.04" y="22.86" length="middle" rot="R180"/>
+<pin name="24_DVDD5V" x="66.04" y="27.94" length="middle" rot="R180"/>
+<pin name="25_AVSS" x="48.26" y="45.72" length="middle" rot="R270"/>
+<pin name="26_MICL" x="43.18" y="45.72" length="middle" rot="R270"/>
+<pin name="27_MICR" x="38.1" y="45.72" length="middle" rot="R270"/>
+<pin name="28_VREF" x="33.02" y="45.72" length="middle" rot="R270"/>
+<pin name="29_VBIAS_1" x="27.94" y="45.72" length="middle" rot="R270"/>
+<pin name="30_VBIAS_2" x="22.86" y="45.72" length="middle" rot="R270"/>
+<pin name="31_AVDD" x="17.78" y="45.72" length="middle" rot="R270"/>
+<pin name="32_AVDD" x="12.7" y="45.72" length="middle" rot="R270"/>
+<pin name="33_AVSS" x="7.62" y="45.72" length="middle" rot="R270"/>
+<pin name="34_AVSS" x="2.54" y="45.72" length="middle" rot="R270"/>
+<pin name="35_NC" x="-2.54" y="45.72" length="middle" rot="R270"/>
+<pin name="36_AVDD" x="-7.62" y="45.72" length="middle" rot="R270"/>
+<pin name="37_AVDD" x="-25.4" y="27.94" length="middle"/>
+<pin name="38_REGV_4V5" x="-25.4" y="22.86" length="middle"/>
+<pin name="39_NC" x="-25.4" y="17.78" length="middle"/>
+<pin name="40_GPI_1" x="-25.4" y="12.7" length="middle"/>
+<pin name="41_GPI_2" x="-25.4" y="7.62" length="middle"/>
+<pin name="42_GPIO_5" x="-25.4" y="2.54" length="middle"/>
+<pin name="43_GPIO_6" x="-25.4" y="-2.54" length="middle"/>
+<pin name="44_GPIO_7" x="-25.4" y="-7.62" length="middle"/>
+<pin name="45_GPIO_8" x="-25.4" y="-12.7" length="middle"/>
+<pin name="46_MUTE_REC" x="-25.4" y="-17.78" length="middle"/>
+<pin name="47_RM_WAKE" x="-25.4" y="-22.86" length="middle"/>
+<pin name="48_DVSS" x="-25.4" y="-27.94" length="middle"/>
+<wire x1="-20.32" y1="40.64" x2="60.96" y2="40.64" width="0.254" layer="94"/>
+<wire x1="60.96" y1="40.64" x2="60.96" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="60.96" y1="-40.64" x2="-20.32" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-40.64" x2="-20.32" y2="40.64" width="0.254" layer="94"/>
+</symbol>
+<symbol name="CM108">
+<pin name="01_SPDIFO" x="-35.56" y="-50.8" length="middle" rot="R90"/>
+<pin name="02_DW" x="-30.48" y="-50.8" length="middle" rot="R90"/>
+<pin name="03_DR" x="-25.4" y="-50.8" length="middle" rot="R90"/>
+<pin name="04_SK" x="-20.32" y="-50.8" length="middle" rot="R90"/>
+<pin name="05_CS" x="-15.24" y="-50.8" length="middle" rot="R90"/>
+<pin name="06_MUTER" x="-10.16" y="-50.8" length="middle" rot="R90"/>
+<pin name="07_PWRSEL" x="-5.08" y="-50.8" length="middle" rot="R90"/>
+<pin name="08_XI" x="0" y="-50.8" length="middle" rot="R90"/>
+<pin name="09_XO" x="5.08" y="-50.8" length="middle" rot="R90"/>
+<pin name="10_MODE" x="10.16" y="-50.8" length="middle" rot="R90"/>
+<pin name="11_GPIO2" x="15.24" y="-50.8" length="middle" rot="R90"/>
+<pin name="12_LEDO" x="20.32" y="-50.8" length="middle" rot="R90"/>
+<pin name="13_GPIO3" x="38.1" y="-33.02" length="middle" rot="R180"/>
+<pin name="14_DVSS1" x="38.1" y="-27.94" length="middle" rot="R180"/>
+<pin name="15_GPIO4" x="38.1" y="-22.86" length="middle" rot="R180"/>
+<pin name="16_SDIN" x="38.1" y="-17.78" length="middle" rot="R180"/>
+<pin name="17_ADSCLS" x="38.1" y="-12.7" length="middle" rot="R180"/>
+<pin name="18_MUTEP" x="38.1" y="-7.62" length="middle" rot="R180"/>
+<pin name="19_ADLRCK" x="38.1" y="-2.54" length="middle" rot="R180"/>
+<pin name="20_ADMCLK" x="38.1" y="2.54" length="middle" rot="R180"/>
+<pin name="21_LEDR" x="38.1" y="7.62" length="middle" rot="R180"/>
+<pin name="22_ADSEL" x="38.1" y="12.7" length="middle" rot="R180"/>
+<pin name="23_TEST" x="38.1" y="17.78" length="middle" rot="R180"/>
+<pin name="24_AO" x="38.1" y="22.86" length="middle" rot="R180"/>
+<pin name="25_AO" x="20.32" y="40.64" length="middle" rot="R270"/>
+<pin name="26_AI" x="15.24" y="40.64" length="middle" rot="R270"/>
+<pin name="27_AI" x="10.16" y="40.64" length="middle" rot="R270"/>
+<pin name="28_P" x="5.08" y="40.64" length="middle" rot="R270"/>
+<pin name="29_AO" x="0" y="40.64" length="middle" rot="R270"/>
+<pin name="30_AO" x="-5.08" y="40.64" length="middle" rot="R270"/>
+<pin name="31_AO" x="-10.16" y="40.64" length="middle" rot="R270"/>
+<pin name="32_AO" x="-15.24" y="40.64" length="middle" rot="R270"/>
+<pin name="33_AVSS2" x="-20.32" y="40.64" length="middle" rot="R270"/>
+<pin name="34_AVDD2" x="-25.4" y="40.64" length="middle" rot="R270"/>
+<pin name="35_DVDD" x="-30.48" y="40.64" length="middle" rot="R270"/>
+<pin name="36_DVSS2" x="-35.56" y="40.64" length="middle" rot="R270"/>
+<pin name="37_REGV" x="-53.34" y="22.86" length="middle"/>
+<pin name="38_MSEL" x="-53.34" y="17.78" length="middle"/>
+<pin name="39_VOLUP" x="-53.34" y="12.7" length="middle"/>
+<pin name="40_PDSW" x="-53.34" y="7.62" length="middle"/>
+<pin name="41_USBDP" x="-53.34" y="2.54" length="middle"/>
+<pin name="42_USBDM" x="-53.34" y="-2.54" length="middle"/>
+<pin name="43_GPIO1" x="-53.34" y="-7.62" length="middle"/>
+<pin name="44_SDOUT" x="-53.34" y="-12.7" length="middle"/>
+<pin name="45_RAMCLK" x="-53.34" y="-17.78" length="middle"/>
+<pin name="46_DALRCK" x="-53.34" y="-22.86" length="middle"/>
+<pin name="47_DASCLS" x="-53.34" y="-27.94" length="middle"/>
+<pin name="48_VOLDN" x="-53.34" y="-33.02" length="middle"/>
+<wire x1="-48.26" y1="35.56" x2="33.02" y2="35.56" width="0.254" layer="94"/>
+<wire x1="33.02" y1="35.56" x2="33.02" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-45.72" x2="-48.26" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="-45.72" x2="-48.26" y2="35.56" width="0.254" layer="94"/>
+</symbol>
+<symbol name="CM6206">
+<pin name="PSDW" x="-27.94" y="-45.72" length="middle" rot="R90"/>
+<pin name="XI" x="-22.86" y="-45.72" length="middle" rot="R90"/>
+<pin name="XO" x="-17.78" y="-45.72" length="middle" rot="R90"/>
+<pin name="DVSS1" x="-12.7" y="-45.72" length="middle" rot="R90"/>
+<pin name="SDAT" x="-7.62" y="-45.72" length="middle" rot="R90"/>
+<pin name="SCLK" x="-2.54" y="-45.72" length="middle" rot="R90"/>
+<pin name="TEST" x="2.54" y="-45.72" length="middle" rot="R90"/>
+<pin name="MCLK" x="7.62" y="-45.72" length="middle" rot="R90"/>
+<pin name="MINT" x="12.7" y="-45.72" length="middle" rot="R90"/>
+<pin name="GPIO1" x="17.78" y="-45.72" length="middle" rot="R90"/>
+<pin name="LEDO" x="22.86" y="-45.72" length="middle" rot="R90"/>
+<pin name="LEDR" x="27.94" y="-45.72" length="middle" rot="R90"/>
+<pin name="PHONES" x="45.72" y="-27.94" length="middle" rot="R180"/>
+<pin name="CS" x="45.72" y="-22.86" length="middle" rot="R180"/>
+<pin name="SK" x="45.72" y="-17.78" length="middle" rot="R180"/>
+<pin name="DR" x="45.72" y="-12.7" length="middle" rot="R180"/>
+<pin name="DW" x="45.72" y="-7.62" length="middle" rot="R180"/>
+<pin name="USBDP" x="45.72" y="-2.54" length="middle" rot="R180"/>
+<pin name="USBDM" x="45.72" y="2.54" length="middle" rot="R180"/>
+<pin name="REGV" x="45.72" y="7.62" length="middle" rot="R180"/>
+<pin name="DVDD1" x="45.72" y="12.7" length="middle" rot="R180"/>
+<pin name="AVSS3" x="45.72" y="17.78" length="middle" rot="R180"/>
+<pin name="MICL" x="45.72" y="22.86" length="middle" rot="R180"/>
+<pin name="MICR" x="45.72" y="27.94" length="middle" rot="R180"/>
+<pin name="LINL" x="27.94" y="45.72" length="middle" rot="R270"/>
+<pin name="LINR" x="22.86" y="45.72" length="middle" rot="R270"/>
+<pin name="AVDD1" x="17.78" y="45.72" length="middle" rot="R270"/>
+<pin name="VREF" x="12.7" y="45.72" length="middle" rot="R270"/>
+<pin name="VBIAS" x="7.62" y="45.72" length="middle" rot="R270"/>
+<pin name="AVSS1" x="2.54" y="45.72" length="middle" rot="R270"/>
+<pin name="HPOL" x="-2.54" y="45.72" length="middle" rot="R270"/>
+<pin name="HPOR" x="-7.62" y="45.72" length="middle" rot="R270"/>
+<pin name="RSOL" x="-12.7" y="45.72" length="middle" rot="R270"/>
+<pin name="RSOR" x="-17.78" y="45.72" length="middle" rot="R270"/>
+<pin name="FROL" x="-22.86" y="45.72" length="middle" rot="R270"/>
+<pin name="FROR" x="-27.94" y="45.72" length="middle" rot="R270"/>
+<pin name="AVDD2" x="-45.72" y="27.94" length="middle"/>
+<pin name="SSOL" x="-45.72" y="22.86" length="middle"/>
+<pin name="SSOR" x="-45.72" y="17.78" length="middle"/>
+<pin name="CENO" x="-45.72" y="12.7" length="middle"/>
+<pin name="LFEO" x="-45.72" y="7.62" length="middle"/>
+<pin name="AVSS2" x="-45.72" y="2.54" length="middle"/>
+<pin name="VOLUP" x="-45.72" y="-2.54" length="middle"/>
+<pin name="VOLDN" x="-45.72" y="-7.62" length="middle"/>
+<pin name="SPDIFI" x="-45.72" y="-12.7" length="middle"/>
+<pin name="MUTER" x="-45.72" y="-17.78" length="middle"/>
+<pin name="MUTEP" x="-45.72" y="-22.86" length="middle"/>
+<pin name="SPDIFO" x="-45.72" y="-27.94" length="middle"/>
+<wire x1="-40.64" y1="40.64" x2="40.64" y2="40.64" width="0.254" layer="94"/>
+<wire x1="40.64" y1="40.64" x2="40.64" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-40.64" x2="-40.64" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="-40.64" x2="-40.64" y2="40.64" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CM6300" uservalue="yes">
+<description>CM6300 is a highly integrated single chip for USB
+stereo speakers and headphone set application.
+With less external components, it can be used for
+building an USB speaker or headphone set solution
+easily. CM6300 needn’t any proprietary driver for
+audio playback or recording and all of audio
+functions are supported by major OS. As well as
+CM6300 provides a truly plug-and-play features for
+external digital audio playback.
+CM6300 contains embedded 2ch output with DRC
+managements. The Dynamic Range Control
+function can support high efficiency volume output
+and implement loudness sound effect, which is
+similar D class amplifier capabili ty. Moreover,
+CM6300 supports USB standard HID Interface which
+provide Vol_up / Vol_dn / Play_mute Butoms and 3
+LED indicator pins: On / Off / Operation / playback
+mute / recording mute / and controllable flash
+time (with PWM Functions).
+
+Library by Dimitri Albino - ALDI Technology www.alditechnology.com</description>
+<gates>
+<gate name="G$1" symbol="CM6300" x="0" y="17.78"/>
+</gates>
+<devices>
+<device name="" package="LQFP-48">
+<connects>
+<connect gate="G$1" pin="01_PSDW" pad="1"/>
+<connect gate="G$1" pin="02_PWRSEL_2" pad="2"/>
+<connect gate="G$1" pin="03_TEST" pad="3"/>
+<connect gate="G$1" pin="04_DVSS" pad="4"/>
+<connect gate="G$1" pin="05_GPIO_1" pad="5"/>
+<connect gate="G$1" pin="06_GPIO_2" pad="6"/>
+<connect gate="G$1" pin="07_GPIO_3" pad="7"/>
+<connect gate="G$1" pin="08_GPIO_4" pad="8"/>
+<connect gate="G$1" pin="09_LED_2" pad="9"/>
+<connect gate="G$1" pin="10_LED_1" pad="10"/>
+<connect gate="G$1" pin="11_LED_3" pad="11"/>
+<connect gate="G$1" pin="12_XTAL_I" pad="12"/>
+<connect gate="G$1" pin="13_XTAL_O" pad="13"/>
+<connect gate="G$1" pin="14_I2C_SCLK" pad="14"/>
+<connect gate="G$1" pin="15_I2C_SDAT" pad="15"/>
+<connect gate="G$1" pin="16_DVSS" pad="16"/>
+<connect gate="G$1" pin="17_USB_DP" pad="17"/>
+<connect gate="G$1" pin="18_USB_DM" pad="18"/>
+<connect gate="G$1" pin="19_DVSS" pad="19"/>
+<connect gate="G$1" pin="20_REGV_3V3" pad="20"/>
+<connect gate="G$1" pin="21_DVDD_5V" pad="21"/>
+<connect gate="G$1" pin="22_AVSS" pad="22"/>
+<connect gate="G$1" pin="23_MICL" pad="23"/>
+<connect gate="G$1" pin="24_MICR" pad="24"/>
+<connect gate="G$1" pin="25_VOLADJ" pad="25"/>
+<connect gate="G$1" pin="26_LINIL" pad="26"/>
+<connect gate="G$1" pin="27_LINIR" pad="27"/>
+<connect gate="G$1" pin="28_VREF" pad="28"/>
+<connect gate="G$1" pin="29_VBIAS_1" pad="29"/>
+<connect gate="G$1" pin="30_VBIAS_2" pad="30"/>
+<connect gate="G$1" pin="31_AVDD" pad="31"/>
+<connect gate="G$1" pin="32_AVSS" pad="32"/>
+<connect gate="G$1" pin="33_LNOUTL" pad="33"/>
+<connect gate="G$1" pin="34_AVDD" pad="34"/>
+<connect gate="G$1" pin="35_LNOUTR" pad="35"/>
+<connect gate="G$1" pin="36_AVSS" pad="36"/>
+<connect gate="G$1" pin="37_AVDD" pad="37"/>
+<connect gate="G$1" pin="38_AVDD" pad="38"/>
+<connect gate="G$1" pin="39_REGV_4V5" pad="39"/>
+<connect gate="G$1" pin="40_AVSS" pad="40"/>
+<connect gate="G$1" pin="41_MIXER_EN" pad="41"/>
+<connect gate="G$1" pin="42_VOL_UP" pad="42"/>
+<connect gate="G$1" pin="43_VOL_DN" pad="43"/>
+<connect gate="G$1" pin="44_SPDIF_I" pad="44"/>
+<connect gate="G$1" pin="45_MUTE_REC" pad="45"/>
+<connect gate="G$1" pin="46_MUTE_PLAY" pad="46"/>
+<connect gate="G$1" pin="47_SPDIF_O" pad="47"/>
+<connect gate="G$1" pin="48_DVSS" pad="48"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CM6317A">
+<description>CM6317A is C-Media's new Audio SOC IC. It contains
+high performance stereo ADC, and have various
+interface like I2C, allowing all kinds of
+Microprocessor or DSP to communicate. Especially
+in advanced VOIP applications. CM6317A could give
+you low noise and high quality speech input
+solution, thus, when it comes to conference or
+public speech, it would be wonderful choice for
+you. Also, CM6317A integrates all essential analog,
+2CH ADC, PLL, regulator , USB transceiver, with
+EEPROM to customize your own product string, PID
+and VID. CM6317A support 8 / 11.025 / 16 / 22.05 /
+32 / 44.1 / 48 KHz sampling rate and high quality
+16-bit resolution and friendly General purpose
+inputs and outputs for customized functions. Also
+there are many features could be programmable
+with external EEPROM and MCU. External MCU /
+EEPROM could be easily controlled via HID software
+interface.</description>
+<gates>
+<gate name="G$1" symbol="CM6317A" x="-22.86" y="0"/>
+</gates>
+<devices>
+<device name="" package="LQFP-48">
+<connects>
+<connect gate="G$1" pin="01_PSDW" pad="1"/>
+<connect gate="G$1" pin="02_NC" pad="2"/>
+<connect gate="G$1" pin="03_TEST" pad="3"/>
+<connect gate="G$1" pin="04_GPIO_1" pad="4"/>
+<connect gate="G$1" pin="05_GPIO_2" pad="5"/>
+<connect gate="G$1" pin="06_GPIO_3" pad="6"/>
+<connect gate="G$1" pin="07_GPIO_4" pad="7"/>
+<connect gate="G$1" pin="08_LED_1" pad="8"/>
+<connect gate="G$1" pin="09_LED_3" pad="9"/>
+<connect gate="G$1" pin="10_XTAL_I" pad="10"/>
+<connect gate="G$1" pin="11_XTAL_O" pad="11"/>
+<connect gate="G$1" pin="12_NC" pad="12"/>
+<connect gate="G$1" pin="13_NC" pad="13"/>
+<connect gate="G$1" pin="14_HID_EN" pad="14"/>
+<connect gate="G$1" pin="15_NC" pad="15"/>
+<connect gate="G$1" pin="16_NC" pad="16"/>
+<connect gate="G$1" pin="17_I2C_SCLK" pad="17"/>
+<connect gate="G$1" pin="18_I2C_SDAT" pad="18"/>
+<connect gate="G$1" pin="19_I2C_INT" pad="19"/>
+<connect gate="G$1" pin="20_USB_DP" pad="20"/>
+<connect gate="G$1" pin="21_USB_DM" pad="21"/>
+<connect gate="G$1" pin="22_DVSS" pad="22"/>
+<connect gate="G$1" pin="23_REGV_3V3" pad="23"/>
+<connect gate="G$1" pin="24_DVDD5V" pad="24"/>
+<connect gate="G$1" pin="25_AVSS" pad="25"/>
+<connect gate="G$1" pin="26_MICL" pad="26"/>
+<connect gate="G$1" pin="27_MICR" pad="27"/>
+<connect gate="G$1" pin="28_VREF" pad="28"/>
+<connect gate="G$1" pin="29_VBIAS_1" pad="29"/>
+<connect gate="G$1" pin="30_VBIAS_2" pad="30"/>
+<connect gate="G$1" pin="31_AVDD" pad="31"/>
+<connect gate="G$1" pin="32_AVDD" pad="32"/>
+<connect gate="G$1" pin="33_AVSS" pad="33"/>
+<connect gate="G$1" pin="34_AVSS" pad="34"/>
+<connect gate="G$1" pin="35_NC" pad="35"/>
+<connect gate="G$1" pin="36_AVDD" pad="36"/>
+<connect gate="G$1" pin="37_AVDD" pad="37"/>
+<connect gate="G$1" pin="38_REGV_4V5" pad="38"/>
+<connect gate="G$1" pin="39_NC" pad="39"/>
+<connect gate="G$1" pin="40_GPI_1" pad="40"/>
+<connect gate="G$1" pin="41_GPI_2" pad="41"/>
+<connect gate="G$1" pin="42_GPIO_5" pad="42"/>
+<connect gate="G$1" pin="43_GPIO_6" pad="43"/>
+<connect gate="G$1" pin="44_GPIO_7" pad="44"/>
+<connect gate="G$1" pin="45_GPIO_8" pad="45"/>
+<connect gate="G$1" pin="46_MUTE_REC" pad="46"/>
+<connect gate="G$1" pin="47_RM_WAKE" pad="47"/>
+<connect gate="G$1" pin="48_DVSS" pad="48"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CM108">
+<gates>
+<gate name="G$1" symbol="CM108" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="LQFP-48">
+<connects>
+<connect gate="G$1" pin="01_SPDIFO" pad="1"/>
+<connect gate="G$1" pin="02_DW" pad="2"/>
+<connect gate="G$1" pin="03_DR" pad="3"/>
+<connect gate="G$1" pin="04_SK" pad="4"/>
+<connect gate="G$1" pin="05_CS" pad="5"/>
+<connect gate="G$1" pin="06_MUTER" pad="6"/>
+<connect gate="G$1" pin="07_PWRSEL" pad="7"/>
+<connect gate="G$1" pin="08_XI" pad="8"/>
+<connect gate="G$1" pin="09_XO" pad="9"/>
+<connect gate="G$1" pin="10_MODE" pad="10"/>
+<connect gate="G$1" pin="11_GPIO2" pad="11"/>
+<connect gate="G$1" pin="12_LEDO" pad="12"/>
+<connect gate="G$1" pin="13_GPIO3" pad="13"/>
+<connect gate="G$1" pin="14_DVSS1" pad="14"/>
+<connect gate="G$1" pin="15_GPIO4" pad="15"/>
+<connect gate="G$1" pin="16_SDIN" pad="16"/>
+<connect gate="G$1" pin="17_ADSCLS" pad="17"/>
+<connect gate="G$1" pin="18_MUTEP" pad="18"/>
+<connect gate="G$1" pin="19_ADLRCK" pad="19"/>
+<connect gate="G$1" pin="20_ADMCLK" pad="20"/>
+<connect gate="G$1" pin="21_LEDR" pad="21"/>
+<connect gate="G$1" pin="22_ADSEL" pad="22"/>
+<connect gate="G$1" pin="23_TEST" pad="23"/>
+<connect gate="G$1" pin="24_AO" pad="24"/>
+<connect gate="G$1" pin="25_AO" pad="25"/>
+<connect gate="G$1" pin="26_AI" pad="26"/>
+<connect gate="G$1" pin="27_AI" pad="27"/>
+<connect gate="G$1" pin="28_P" pad="28"/>
+<connect gate="G$1" pin="29_AO" pad="29"/>
+<connect gate="G$1" pin="30_AO" pad="30"/>
+<connect gate="G$1" pin="31_AO" pad="31"/>
+<connect gate="G$1" pin="32_AO" pad="32"/>
+<connect gate="G$1" pin="33_AVSS2" pad="33"/>
+<connect gate="G$1" pin="34_AVDD2" pad="34"/>
+<connect gate="G$1" pin="35_DVDD" pad="35"/>
+<connect gate="G$1" pin="36_DVSS2" pad="36"/>
+<connect gate="G$1" pin="37_REGV" pad="37"/>
+<connect gate="G$1" pin="38_MSEL" pad="38"/>
+<connect gate="G$1" pin="39_VOLUP" pad="39"/>
+<connect gate="G$1" pin="40_PDSW" pad="40"/>
+<connect gate="G$1" pin="41_USBDP" pad="41"/>
+<connect gate="G$1" pin="42_USBDM" pad="42"/>
+<connect gate="G$1" pin="43_GPIO1" pad="43"/>
+<connect gate="G$1" pin="44_SDOUT" pad="44"/>
+<connect gate="G$1" pin="45_RAMCLK" pad="45"/>
+<connect gate="G$1" pin="46_DALRCK" pad="46"/>
+<connect gate="G$1" pin="47_DASCLS" pad="47"/>
+<connect gate="G$1" pin="48_VOLDN" pad="48"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CM6206" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CM6206" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LQFP-48">
+<connects>
+<connect gate="G$1" pin="AVDD1" pad="27"/>
+<connect gate="G$1" pin="AVDD2" pad="37"/>
+<connect gate="G$1" pin="AVSS1" pad="30"/>
+<connect gate="G$1" pin="AVSS2" pad="42"/>
+<connect gate="G$1" pin="AVSS3" pad="22"/>
+<connect gate="G$1" pin="CENO" pad="40"/>
+<connect gate="G$1" pin="CS" pad="14"/>
+<connect gate="G$1" pin="DR" pad="16"/>
+<connect gate="G$1" pin="DVDD1" pad="21"/>
+<connect gate="G$1" pin="DVSS1" pad="4"/>
+<connect gate="G$1" pin="DW" pad="17"/>
+<connect gate="G$1" pin="FROL" pad="35"/>
+<connect gate="G$1" pin="FROR" pad="36"/>
+<connect gate="G$1" pin="GPIO1" pad="10"/>
+<connect gate="G$1" pin="HPOL" pad="31"/>
+<connect gate="G$1" pin="HPOR" pad="32"/>
+<connect gate="G$1" pin="LEDO" pad="11"/>
+<connect gate="G$1" pin="LEDR" pad="12"/>
+<connect gate="G$1" pin="LFEO" pad="41"/>
+<connect gate="G$1" pin="LINL" pad="25"/>
+<connect gate="G$1" pin="LINR" pad="26"/>
+<connect gate="G$1" pin="MCLK" pad="8"/>
+<connect gate="G$1" pin="MICL" pad="23"/>
+<connect gate="G$1" pin="MICR" pad="24"/>
+<connect gate="G$1" pin="MINT" pad="9"/>
+<connect gate="G$1" pin="MUTEP" pad="47"/>
+<connect gate="G$1" pin="MUTER" pad="46"/>
+<connect gate="G$1" pin="PHONES" pad="13"/>
+<connect gate="G$1" pin="PSDW" pad="1"/>
+<connect gate="G$1" pin="REGV" pad="20"/>
+<connect gate="G$1" pin="RSOL" pad="33"/>
+<connect gate="G$1" pin="RSOR" pad="34"/>
+<connect gate="G$1" pin="SCLK" pad="6"/>
+<connect gate="G$1" pin="SDAT" pad="5"/>
+<connect gate="G$1" pin="SK" pad="15"/>
+<connect gate="G$1" pin="SPDIFI" pad="45"/>
+<connect gate="G$1" pin="SPDIFO" pad="48"/>
+<connect gate="G$1" pin="SSOL" pad="38"/>
+<connect gate="G$1" pin="SSOR" pad="39"/>
+<connect gate="G$1" pin="TEST" pad="7"/>
+<connect gate="G$1" pin="USBDM" pad="19"/>
+<connect gate="G$1" pin="USBDP" pad="18"/>
+<connect gate="G$1" pin="VBIAS" pad="29"/>
+<connect gate="G$1" pin="VOLDN" pad="44"/>
+<connect gate="G$1" pin="VOLUP" pad="43"/>
+<connect gate="G$1" pin="VREF" pad="28"/>
+<connect gate="G$1" pin="XI" pad="2"/>
+<connect gate="G$1" pin="XO" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
