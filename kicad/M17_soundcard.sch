@@ -1,0 +1,1798 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12367 12583
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1550 11300 1650 11300
+Wire Wire Line
+	1650 11300 1650 11600
+Text Label 1550 11300 0    10   ~ 0
+GND
+Wire Wire Line
+	1850 11500 1850 11600
+Text Label 1850 11500 0    10   ~ 0
+GND
+Wire Wire Line
+	2250 11500 2250 11600
+Text Label 2250 11500 0    10   ~ 0
+GND
+Wire Wire Line
+	2650 11500 2650 11600
+Text Label 2650 11500 0    10   ~ 0
+GND
+Wire Wire Line
+	3050 11500 3050 11600
+Text Label 3050 11500 0    10   ~ 0
+GND
+Wire Wire Line
+	6850 10450 6850 10550
+Text Label 6850 10450 0    10   ~ 0
+GND
+Wire Wire Line
+	7450 10450 7450 10550
+Text Label 7450 10450 0    10   ~ 0
+GND
+Wire Wire Line
+	11100 4000 11000 4000
+Wire Wire Line
+	11000 4000 11000 4700
+Wire Wire Line
+	11000 4700 11000 5500
+Wire Wire Line
+	11000 5500 11000 6200
+Wire Wire Line
+	11000 6200 11000 6400
+Wire Wire Line
+	11100 6200 11000 6200
+Wire Wire Line
+	11100 5500 11000 5500
+Wire Wire Line
+	11100 4700 11000 4700
+Connection ~ 11000 4700
+Connection ~ 11000 5500
+Connection ~ 11000 6200
+Text Label 11100 4000 0    10   ~ 0
+GND
+Wire Wire Line
+	7450 6850 7450 5650
+Text Label 7450 6850 0    10   ~ 0
+GND
+Wire Wire Line
+	7650 6350 7650 5650
+Text Label 7650 6350 0    10   ~ 0
+GND
+Wire Wire Line
+	8050 5750 8050 5650
+Text Label 8050 5750 0    10   ~ 0
+GND
+Wire Wire Line
+	8550 5750 8550 5650
+Text Label 8550 5750 0    10   ~ 0
+GND
+Wire Wire Line
+	7850 6050 7850 5650
+Text Label 7850 6050 0    10   ~ 0
+GND
+Wire Wire Line
+	1350 4350 1450 4350
+Wire Wire Line
+	1450 4350 1450 4550
+Text Label 1350 4350 0    10   ~ 0
+GND
+Wire Wire Line
+	2950 3250 2950 3450
+Text Label 2950 3250 0    10   ~ 0
+GND
+Wire Wire Line
+	1250 3350 1250 3450
+Text Label 1250 3350 0    10   ~ 0
+GND
+Wire Wire Line
+	2250 3450 2250 3350
+Text Label 2250 3450 0    10   ~ 0
+GND
+Wire Wire Line
+	8050 4050 8050 4350
+Text Label 8050 4050 0    10   ~ 0
+GND
+Wire Wire Line
+	8550 4250 8550 4350
+Text Label 8550 4250 0    10   ~ 0
+GND
+Wire Wire Line
+	7250 3850 7350 3850
+Wire Wire Line
+	7350 3850 7350 4350
+Text Label 7250 3850 0    10   ~ 0
+GND
+Wire Wire Line
+	6950 1250 6950 1750
+Wire Wire Line
+	6950 1750 6950 1950
+Wire Wire Line
+	6950 1750 7050 1750
+Wire Wire Line
+	6950 1250 7050 1250
+Connection ~ 6950 1750
+Text Label 6950 1250 0    10   ~ 0
+GND
+Wire Wire Line
+	2250 750  2250 650 
+Wire Wire Line
+	2250 650  2550 650 
+Wire Wire Line
+	2550 650  2550 750 
+Text Label 2250 750  0    10   ~ 0
+GND
+Wire Wire Line
+	5550 8550 5050 8550
+Wire Wire Line
+	5050 8550 4650 8550
+Wire Wire Line
+	4650 8550 4650 8650
+Wire Wire Line
+	4650 8550 4650 7950
+Wire Wire Line
+	5050 7950 5050 8550
+Connection ~ 4650 8550
+Connection ~ 5050 8550
+Text Label 5550 8550 0    10   ~ 0
+GND
+Wire Wire Line
+	10150 8750 10150 8850
+Text Label 10150 8750 0    10   ~ 0
+GND
+Wire Wire Line
+	10450 8750 10450 8850
+Text Label 10450 8750 0    10   ~ 0
+GND
+Wire Wire Line
+	9150 7950 9550 7950
+Text Label 9150 7950 0    10   ~ 0
+GND
+Wire Wire Line
+	10150 7750 10150 7650
+Text Label 10150 7750 0    10   ~ 0
+GND
+Wire Wire Line
+	10450 7750 10450 7650
+Text Label 10450 7750 0    10   ~ 0
+GND
+Wire Wire Line
+	4250 4650 4150 4650
+Text Label 4250 4650 0    10   ~ 0
+GND
+Wire Wire Line
+	4250 2550 4150 2550
+Text Label 4250 2550 0    10   ~ 0
+GND
+Wire Wire Line
+	2650 4850 2650 4750
+Text Label 2650 4850 0    10   ~ 0
+GND
+Wire Wire Line
+	1550 11100 1850 11100
+Wire Wire Line
+	1850 11100 1850 11200
+Wire Wire Line
+	3650 11100 1850 11100
+Connection ~ 1850 11100
+Wire Wire Line
+	1550 10900 2650 10900
+Wire Wire Line
+	2650 10900 2650 10800
+Wire Wire Line
+	2650 11200 2650 10900
+Wire Wire Line
+	2650 10900 3050 10900
+Wire Wire Line
+	3050 10900 3050 11200
+Connection ~ 2650 10900
+Text Label 1550 10900 0    10   ~ 0
++5V
+Wire Wire Line
+	5850 3950 6050 3950
+Text Label 5850 3950 0    10   ~ 0
++5V
+Wire Wire Line
+	9150 8150 10150 8150
+Wire Wire Line
+	10150 8150 10450 8150
+Wire Wire Line
+	10450 8150 11050 8150
+Wire Wire Line
+	10150 8050 10150 8150
+Wire Wire Line
+	10450 8050 10450 8150
+Connection ~ 10150 8150
+Connection ~ 10450 8150
+Text Label 9150 8150 0    10   ~ 0
++5V
+Wire Wire Line
+	9050 6150 8950 6150
+Text Label 9050 6150 0    10   ~ 0
++5V
+Wire Wire Line
+	5050 7050 5050 7150
+Text Label 5050 7050 0    10   ~ 0
++5V
+Wire Wire Line
+	4150 11000 3650 11000
+Text Label 4150 11000 0    50   ~ 0
+USB_DP
+Wire Wire Line
+	9450 8750 9150 8750
+Text Label 9450 8750 0    50   ~ 0
+USB_DP
+Wire Wire Line
+	4150 11100 4050 11100
+Text Label 4150 11100 0    50   ~ 0
+USB_DM
+Wire Wire Line
+	9450 8550 9150 8550
+Text Label 9450 8550 0    50   ~ 0
+USB_DM
+Wire Wire Line
+	6450 10650 6450 10450
+Text Label 6450 10650 3    50   ~ 0
+12M
+Wire Wire Line
+	2250 1150 2250 1250
+Wire Wire Line
+	2250 1250 2350 1250
+Wire Wire Line
+	2050 1250 2250 1250
+Text Label 2050 1250 2    50   ~ 0
+12M
+Connection ~ 2250 1250
+Wire Wire Line
+	8450 6650 8450 6850
+Text Label 8450 6650 1    50   ~ 0
+INP_A
+Wire Wire Line
+	10300 3900 10500 3900
+Text Label 10300 3900 2    50   ~ 0
+INP_A
+Wire Wire Line
+	8250 6650 8250 6850
+Text Label 8250 6650 1    50   ~ 0
+INP_B
+Wire Wire Line
+	10300 4600 10500 4600
+Text Label 10300 4600 2    50   ~ 0
+INP_B
+Wire Wire Line
+	11100 5400 10900 5400
+Wire Wire Line
+	11100 6100 10900 6100
+Wire Wire Line
+	11100 4600 10900 4600
+Wire Wire Line
+	11100 3900 10900 3900
+Wire Wire Line
+	10300 5400 10500 5400
+Text Label 10300 5400 2    50   ~ 0
+OUT_A
+Wire Wire Line
+	6450 6650 6450 6850
+Text Label 6450 6650 1    50   ~ 0
+OUT_A
+Wire Wire Line
+	10300 6100 10500 6100
+Text Label 10300 6100 2    50   ~ 0
+OUT_B
+Wire Wire Line
+	6250 6650 6250 6850
+Text Label 6250 6650 1    50   ~ 0
+OUT_B
+Wire Wire Line
+	7650 6850 7650 6650
+Wire Wire Line
+	7850 6350 7850 6850
+Wire Wire Line
+	4250 2750 4150 2750
+Wire Wire Line
+	4150 2750 4150 3050
+Wire Wire Line
+	4150 3050 5450 3050
+Wire Wire Line
+	5450 3050 5450 2250
+Wire Wire Line
+	5450 2250 5250 2250
+Wire Wire Line
+	6050 3050 5450 3050
+Connection ~ 5450 3050
+Wire Wire Line
+	1350 2150 1250 2150
+Wire Wire Line
+	1250 2150 1250 2850
+Wire Wire Line
+	1250 2850 1650 2850
+Wire Wire Line
+	1550 1750 1250 1750
+Wire Wire Line
+	1250 1750 1250 2150
+Wire Wire Line
+	1250 2850 1250 3050
+Connection ~ 1250 2150
+Connection ~ 1250 2850
+Wire Wire Line
+	1850 2850 2250 2850
+Wire Wire Line
+	2250 2850 2250 2750
+Wire Wire Line
+	2250 3050 2250 2850
+Wire Wire Line
+	2250 2850 2450 2850
+Connection ~ 2250 2850
+Wire Wire Line
+	2150 2150 2250 2150
+Wire Wire Line
+	2250 2150 2250 2350
+Wire Wire Line
+	1950 1750 2250 1750
+Wire Wire Line
+	2250 1750 2250 2150
+Wire Wire Line
+	2750 2150 2250 2150
+Connection ~ 2250 2150
+Wire Wire Line
+	2750 2850 2950 2850
+Wire Wire Line
+	2950 2850 2950 3050
+Wire Wire Line
+	2950 2850 3050 2850
+Connection ~ 2950 2850
+Wire Wire Line
+	3550 2850 3450 2850
+Text Label 3550 2850 0    50   ~ 0
+V_TUNE
+Wire Wire Line
+	7850 3350 8050 3350
+Wire Wire Line
+	8050 3350 8050 3750
+Wire Wire Line
+	8050 3350 8550 3350
+Wire Wire Line
+	8550 3350 8550 3450
+Wire Wire Line
+	8550 3350 8750 3350
+Connection ~ 8050 3350
+Connection ~ 8550 3350
+Text Label 8750 3350 0    50   ~ 0
+V_TUNE
+Wire Wire Line
+	4250 2150 3850 2150
+Wire Wire Line
+	3850 2150 3550 2150
+Wire Wire Line
+	3650 1250 3850 1250
+Wire Wire Line
+	3850 1250 3850 2150
+Connection ~ 3850 2150
+Wire Wire Line
+	3650 4250 4250 4250
+Wire Wire Line
+	7250 3350 7450 3350
+Wire Wire Line
+	8550 3950 8550 3850
+Wire Wire Line
+	2750 1250 2850 1250
+Wire Wire Line
+	9150 8350 10150 8350
+Wire Wire Line
+	10150 8350 10150 8450
+Wire Wire Line
+	10150 8350 10450 8350
+Wire Wire Line
+	10450 8350 10450 8450
+Wire Wire Line
+	10550 8350 10450 8350
+Connection ~ 10150 8350
+Connection ~ 10450 8350
+Wire Wire Line
+	5550 7550 5050 7550
+Wire Wire Line
+	5050 7550 4650 7550
+Wire Wire Line
+	4650 7550 4650 7650
+Wire Wire Line
+	5050 7650 5050 7550
+Wire Wire Line
+	5050 7450 5050 7550
+Connection ~ 5050 7550
+Wire Wire Line
+	8050 6050 8050 6150
+Wire Wire Line
+	8050 6150 8050 6850
+Wire Wire Line
+	8550 6050 8550 6150
+Wire Wire Line
+	8550 6150 8050 6150
+Wire Wire Line
+	8650 6150 8550 6150
+Connection ~ 8050 6150
+Connection ~ 8550 6150
+Wire Wire Line
+	11050 8350 10950 8350
+Text Label 11050 8350 0    50   ~ 0
+DP
+Wire Wire Line
+	1550 11000 2250 11000
+Wire Wire Line
+	2250 11000 2250 11200
+Wire Wire Line
+	3250 11000 2250 11000
+Wire Wire Line
+	2250 11000 2250 10800
+Connection ~ 2250 11000
+Text Label 2250 10800 1    50   ~ 0
+DP
+Wire Wire Line
+	4250 4850 4150 4850
+Wire Wire Line
+	4150 4850 4150 5250
+Wire Wire Line
+	4150 5250 5450 5250
+Wire Wire Line
+	5450 5250 5450 4250
+Wire Wire Line
+	5450 4250 5250 4250
+Wire Wire Line
+	5450 4250 5450 3350
+Wire Wire Line
+	5450 3350 6050 3350
+Connection ~ 5450 4250
+Wire Wire Line
+	2850 4250 2650 4250
+Wire Wire Line
+	2650 4250 2650 4350
+Wire Wire Line
+	1350 4250 2650 4250
+Connection ~ 2650 4250
+$Comp
+L M17_soundcard-eagle-import:CM6206 U1
+U 1 1 F9562130
+P 7350 8650
+F 0 "U1" H 7350 8650 50  0001 C CNN
+F 1 "CM6206" H 7350 8650 50  0001 C CNN
+F 2 "M17_soundcard:LQFP-48" H 7350 8650 50  0001 C CNN
+F 3 "" H 7350 8650 50  0001 C CNN
+	1    7350 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:USBMINIB CN1
+U 1 1 F1A938B3
+P 1150 11100
+F 0 "CN1" H 750 11440 42  0000 L BNN
+F 1 "USBMINIB" H 750 10700 42  0000 L BNN
+F 2 "M17_soundcard:USB-MINIB" H 1150 11100 50  0001 C CNN
+F 3 "" H 1150 11100 50  0001 C CNN
+	1    1150 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND2
+U 1 1 13A376EC
+P 1650 11700
+F 0 "#GND2" H 1650 11700 50  0001 C CNN
+F 1 "GND" H 1550 11600 59  0000 L BNN
+F 2 "" H 1650 11700 50  0001 C CNN
+F 3 "" H 1650 11700 50  0001 C CNN
+	1    1650 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:+5V #P+3
+U 1 1 00F05DF6
+P 2650 10700
+F 0 "#P+3" H 2650 10700 50  0001 C CNN
+F 1 "+5V" V 2550 10500 59  0000 L BNN
+F 2 "" H 2650 10700 50  0001 C CNN
+F 3 "" H 2650 10700 50  0001 C CNN
+	1    2650 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC1206 C8
+U 1 1 95F339E4
+P 2650 11300
+F 0 "C8" H 2710 11315 59  0000 L BNN
+F 1 "10u/10V" H 2710 11115 59  0000 L BNN
+F 2 "M17_soundcard:C1206" H 2650 11300 50  0001 C CNN
+F 3 "" H 2650 11300 50  0001 C CNN
+	1    2650 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C4
+U 1 1 14094E0B
+P 1850 11300
+F 0 "C4" H 1910 11315 59  0000 L BNN
+F 1 "100p" H 1910 11115 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 1850 11300 50  0001 C CNN
+F 3 "" H 1850 11300 50  0001 C CNN
+	1    1850 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C6
+U 1 1 C2232000
+P 2250 11300
+F 0 "C6" H 2310 11315 59  0000 L BNN
+F 1 "100p" H 2310 11115 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 2250 11300 50  0001 C CNN
+F 3 "" H 2250 11300 50  0001 C CNN
+	1    2250 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND3
+U 1 1 7679BDCC
+P 1850 11700
+F 0 "#GND3" H 1850 11700 50  0001 C CNN
+F 1 "GND" H 1750 11600 59  0000 L BNN
+F 2 "" H 1850 11700 50  0001 C CNN
+F 3 "" H 1850 11700 50  0001 C CNN
+	1    1850 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND5
+U 1 1 EF27308A
+P 2250 11700
+F 0 "#GND5" H 2250 11700 50  0001 C CNN
+F 1 "GND" H 2150 11600 59  0000 L BNN
+F 2 "" H 2250 11700 50  0001 C CNN
+F 3 "" H 2250 11700 50  0001 C CNN
+	1    2250 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND7
+U 1 1 9CDE76EF
+P 2650 11700
+F 0 "#GND7" H 2650 11700 50  0001 C CNN
+F 1 "GND" H 2550 11600 59  0000 L BNN
+F 2 "" H 2650 11700 50  0001 C CNN
+F 3 "" H 2650 11700 50  0001 C CNN
+	1    2650 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R2
+U 1 1 9FA7C8BE
+P 3450 11000
+F 0 "R2" H 3300 11059 59  0000 L BNN
+F 1 "22R" H 3300 10870 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 3450 11000 50  0001 C CNN
+F 3 "" H 3450 11000 50  0001 C CNN
+	1    3450 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R6
+U 1 1 88FCE769
+P 3850 11100
+F 0 "R6" H 3700 11159 59  0000 L BNN
+F 1 "22R" H 3700 10970 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 3850 11100 50  0001 C CNN
+F 3 "" H 3850 11100 50  0001 C CNN
+	1    3850 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC1206 C10
+U 1 1 4877EF3F
+P 3050 11300
+F 0 "C10" H 3110 11315 59  0000 L BNN
+F 1 "10u/10V" H 3110 11115 59  0000 L BNN
+F 2 "M17_soundcard:C1206" H 3050 11300 50  0001 C CNN
+F 3 "" H 3050 11300 50  0001 C CNN
+	1    3050 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND9
+U 1 1 928DF91D
+P 3050 11700
+F 0 "#GND9" H 3050 11700 50  0001 C CNN
+F 1 "GND" H 2950 11600 59  0000 L BNN
+F 2 "" H 3050 11700 50  0001 C CNN
+F 3 "" H 3050 11700 50  0001 C CNN
+	1    3050 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:?2271611- X3
+U 1 1 0AA4D5FE
+P 11200 3900
+F 0 "X3" H 11100 4030 59  0000 L BNN
+F 1 "INP_A" H 11100 3700 59  0000 L BNN
+F 2 "M17_soundcard:AMP_227161" H 11200 3900 50  0001 C CNN
+F 3 "" H 11200 3900 50  0001 C CNN
+	1    11200 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:?2271611- X4
+U 1 1 A6DFE8FD
+P 11200 4600
+F 0 "X4" H 11100 4730 59  0000 L BNN
+F 1 "INP_B" H 11100 4400 59  0000 L BNN
+F 2 "M17_soundcard:AMP_227161" H 11200 4600 50  0001 C CNN
+F 3 "" H 11200 4600 50  0001 C CNN
+	1    11200 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:?2271611- X5
+U 1 1 E3EAEF5C
+P 11200 5400
+F 0 "X5" H 11100 5530 59  0000 L BNN
+F 1 "OUT_A" H 11100 5200 59  0000 L BNN
+F 2 "M17_soundcard:AMP_227161" H 11200 5400 50  0001 C CNN
+F 3 "" H 11200 5400 50  0001 C CNN
+	1    11200 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:?2271611- X6
+U 1 1 823D1E84
+P 11200 6100
+F 0 "X6" H 11100 6230 59  0000 L BNN
+F 1 "OUT_B" H 11100 5900 59  0000 L BNN
+F 2 "M17_soundcard:AMP_227161" H 11200 6100 50  0001 C CNN
+F 3 "" H 11200 6100 50  0001 C CNN
+	1    11200 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:?2271611- X1
+U 1 1 33806760
+P 1250 4250
+F 0 "X1" H 1150 4380 59  0000 L BNN
+F 1 "10M_REF" H 1150 4050 59  0000 L BNN
+F 2 "M17_soundcard:AMP_227161" H 1250 4250 50  0001 C CNN
+F 3 "" H 1250 4250 50  0001 C CNN
+	1    1250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:4017D IC3
+U 1 1 362867CF
+P 4750 4250
+F 0 "IC3" H 4700 4225 59  0000 L BNN
+F 1 "74HCT4017D" H 4450 3450 59  0001 L BNN
+F 2 "M17_soundcard:SO16" H 4750 4250 50  0001 C CNN
+F 3 "" H 4750 4250 50  0001 C CNN
+	1    4750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:4017D IC2
+U 1 1 3CED4EA2
+P 4750 2150
+F 0 "IC2" H 4700 2125 59  0000 L BNN
+F 1 "74HCT4017D" H 4450 1350 59  0001 L BNN
+F 2 "M17_soundcard:SO16" H 4750 2150 50  0001 C CNN
+F 3 "" H 4750 2150 50  0001 C CNN
+	1    4750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:7404D IC1
+U 1 1 06F92037
+P 1750 2150
+F 0 "IC1" H 1725 2125 59  0000 L BNN
+F 1 "7404D" H 1850 1950 59  0001 L BNN
+F 2 "M17_soundcard:SO14" H 1750 2150 50  0001 C CNN
+F 3 "" H 1750 2150 50  0001 C CNN
+	1    1750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:7404D IC1
+U 2 1 06F9203B
+P 3150 2150
+F 0 "IC1" H 3125 2125 59  0000 L BNN
+F 1 "7404D" H 3250 1950 59  0001 L BNN
+F 2 "M17_soundcard:SO14" H 3150 2150 50  0001 C CNN
+F 3 "" H 3150 2150 50  0001 C CNN
+	2    3150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:7404D IC1
+U 3 1 06F9203F
+P 3250 1250
+F 0 "IC1" H 3225 1225 59  0000 L BNN
+F 1 "7404D" H 3350 1050 59  0001 L BNN
+F 2 "M17_soundcard:SO14" H 3250 1250 50  0001 C CNN
+F 3 "" H 3250 1250 50  0001 C CNN
+	3    3250 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:7404D IC1
+U 4 1 06F92023
+P 7450 1250
+F 0 "IC1" H 7425 1225 59  0000 L BNN
+F 1 "7404D" H 7550 1050 59  0001 L BNN
+F 2 "M17_soundcard:SO14" H 7450 1250 50  0001 C CNN
+F 3 "" H 7450 1250 50  0001 C CNN
+	4    7450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:7404D IC1
+U 5 1 06F92027
+P 7450 1750
+F 0 "IC1" H 7425 1725 59  0000 L BNN
+F 1 "7404D" H 7550 1550 59  0001 L BNN
+F 2 "M17_soundcard:SO14" H 7450 1750 50  0001 C CNN
+F 3 "" H 7450 1750 50  0001 C CNN
+	5    7450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:7404D IC1
+U 6 1 06F9202B
+P 3250 4250
+F 0 "IC1" H 3225 4225 59  0000 L BNN
+F 1 "7404D" H 3350 4050 59  0001 L BNN
+F 2 "M17_soundcard:SO14" H 3250 4250 50  0001 C CNN
+F 3 "" H 3250 4250 50  0001 C CNN
+	6    3250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:CRYSTALS-NOGND-HC49_4H X2
+U 1 1 9F284BB2
+P 1750 2850
+F 0 "X2" H 1850 2890 59  0000 L BNN
+F 1 "12MHz" H 1850 2750 59  0000 L BNN
+F 2 "M17_soundcard:HC49" H 1750 2850 50  0001 C CNN
+F 3 "" H 1750 2850 50  0001 C CNN
+	1    1750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:BB141 D1
+U 1 1 2DC17E62
+P 2950 3150
+F 0 "D1" H 2870 3275 59  0000 L BNN
+F 1 "BB181" H 2880 3005 59  0000 L BNN
+F 2 "M17_soundcard:SOD523" H 2950 3150 50  0001 C CNN
+F 3 "" H 2950 3150 50  0001 C CNN
+	1    2950 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND19
+U 1 1 48B3EBD8
+P 6850 10650
+F 0 "#GND19" H 6850 10650 50  0001 C CNN
+F 1 "GND" H 6750 10550 59  0000 L BNN
+F 2 "" H 6850 10650 50  0001 C CNN
+F 3 "" H 6850 10650 50  0001 C CNN
+	1    6850 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND21
+U 1 1 CF593DC2
+P 7450 10650
+F 0 "#GND21" H 7450 10650 50  0001 C CNN
+F 1 "GND" H 7350 10550 59  0000 L BNN
+F 2 "" H 7450 10650 50  0001 C CNN
+F 3 "" H 7450 10650 50  0001 C CNN
+	1    7450 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R11
+U 1 1 4EA54AE4
+P 10700 3900
+F 0 "R11" H 10550 3959 59  0000 L BNN
+F 1 "1k" H 10550 3770 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 10700 3900 50  0001 C CNN
+F 3 "" H 10700 3900 50  0001 C CNN
+	1    10700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R12
+U 1 1 FC0C7BCC
+P 10700 4600
+F 0 "R12" H 10550 4659 59  0000 L BNN
+F 1 "1k" H 10550 4470 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 10700 4600 50  0001 C CNN
+F 3 "" H 10700 4600 50  0001 C CNN
+	1    10700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R13
+U 1 1 5B734894
+P 10700 5400
+F 0 "R13" H 10550 5459 59  0000 L BNN
+F 1 "47R" H 10550 5270 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 10700 5400 50  0001 C CNN
+F 3 "" H 10700 5400 50  0001 C CNN
+	1    10700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R14
+U 1 1 A03C06D4
+P 10700 6100
+F 0 "R14" H 10550 6159 59  0000 L BNN
+F 1 "47R" H 10550 5970 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 10700 6100 50  0001 C CNN
+F 3 "" H 10700 6100 50  0001 C CNN
+	1    10700 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND35
+U 1 1 CF03C53C
+P 11000 6500
+F 0 "#GND35" H 11000 6500 50  0001 C CNN
+F 1 "GND" H 10900 6400 59  0000 L BNN
+F 2 "" H 11000 6500 50  0001 C CNN
+F 3 "" H 11000 6500 50  0001 C CNN
+	1    11000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND20
+U 1 1 2DF12463
+P 7450 5550
+F 0 "#GND20" H 7450 5550 50  0001 C CNN
+F 1 "GND" H 7350 5450 59  0000 L BNN
+F 2 "" H 7450 5550 50  0001 C CNN
+F 3 "" H 7450 5550 50  0001 C CNN
+	1    7450 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C18
+U 1 1 52B654BE
+P 7650 6450
+F 0 "C18" H 7710 6465 59  0000 L BNN
+F 1 "100n" H 7710 6265 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 7650 6450 50  0001 C CNN
+F 3 "" H 7650 6450 50  0001 C CNN
+	1    7650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C20
+U 1 1 EA942FC6
+P 8050 5850
+F 0 "C20" H 8110 5865 59  0000 L BNN
+F 1 "10u/10V" H 8110 5665 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 8050 5850 50  0001 C CNN
+F 3 "" H 8050 5850 50  0001 C CNN
+	1    8050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C21
+U 1 1 09F0E208
+P 8550 5850
+F 0 "C21" H 8610 5865 59  0000 L BNN
+F 1 "100n" H 8610 5665 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 8550 5850 50  0001 C CNN
+F 3 "" H 8550 5850 50  0001 C CNN
+	1    8550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND22
+U 1 1 FB1CD9CF
+P 7650 5550
+F 0 "#GND22" H 7650 5550 50  0001 C CNN
+F 1 "GND" H 7550 5450 59  0000 L BNN
+F 2 "" H 7650 5550 50  0001 C CNN
+F 3 "" H 7650 5550 50  0001 C CNN
+	1    7650 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND24
+U 1 1 664B2FAE
+P 8050 5550
+F 0 "#GND24" H 8050 5550 50  0001 C CNN
+F 1 "GND" H 7950 5450 59  0000 L BNN
+F 2 "" H 8050 5550 50  0001 C CNN
+F 3 "" H 8050 5550 50  0001 C CNN
+	1    8050 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND26
+U 1 1 9E0685E6
+P 8550 5550
+F 0 "#GND26" H 8550 5550 50  0001 C CNN
+F 1 "GND" H 8450 5450 59  0000 L BNN
+F 2 "" H 8550 5550 50  0001 C CNN
+F 3 "" H 8550 5550 50  0001 C CNN
+	1    8550 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C19
+U 1 1 1A3D16CC
+P 7850 6150
+F 0 "C19" H 7910 6165 59  0000 L BNN
+F 1 "22u/10V" H 7910 5965 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 7850 6150 50  0001 C CNN
+F 3 "" H 7850 6150 50  0001 C CNN
+	1    7850 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND23
+U 1 1 C7080FD3
+P 7850 5550
+F 0 "#GND23" H 7850 5550 50  0001 C CNN
+F 1 "GND" H 7750 5450 59  0000 L BNN
+F 2 "" H 7850 5550 50  0001 C CNN
+F 3 "" H 7850 5550 50  0001 C CNN
+	1    7850 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R7
+U 1 1 E9911BD6
+P 2650 4550
+F 0 "R7" H 2500 4609 59  0000 L BNN
+F 1 "47R" H 2500 4420 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 2650 4550 50  0001 C CNN
+F 3 "" H 2650 4550 50  0001 C CNN
+	1    2650 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND8
+U 1 1 DF24F9E8
+P 1450 4650
+F 0 "#GND8" H 1450 4650 50  0001 C CNN
+F 1 "GND" H 1350 4550 59  0000 L BNN
+F 2 "" H 1450 4650 50  0001 C CNN
+F 3 "" H 1450 4650 50  0001 C CNN
+	1    1450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R1
+U 1 1 64FD0967
+P 1750 1750
+F 0 "R1" H 1600 1809 59  0000 L BNN
+F 1 "1M" H 1600 1620 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 1750 1750 50  0001 C CNN
+F 3 "" H 1750 1750 50  0001 C CNN
+	1    1750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R4
+U 1 1 39DDB89E
+P 2250 2550
+F 0 "R4" H 2100 2609 59  0000 L BNN
+F 1 "1.2k" H 2100 2420 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 2250 2550 50  0001 C CNN
+F 3 "" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C7
+U 1 1 CEF095AF
+P 1250 3150
+F 0 "C7" H 1310 3165 59  0000 L BNN
+F 1 "18p" H 1310 2965 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 1250 3150 50  0001 C CNN
+F 3 "" H 1250 3150 50  0001 C CNN
+	1    1250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C12
+U 1 1 3568B36D
+P 2250 3150
+F 0 "C12" H 2310 3165 59  0000 L BNN
+F 1 "12p" H 2310 2965 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 2250 3150 50  0001 C CNN
+F 3 "" H 2250 3150 50  0001 C CNN
+	1    2250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C13
+U 1 1 FDB6AF7A
+P 2550 2850
+F 0 "C13" H 2610 2865 59  0000 L BNN
+F 1 "12p" H 2610 2665 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 2550 2850 50  0001 C CNN
+F 3 "" H 2550 2850 50  0001 C CNN
+	1    2550 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND6
+U 1 1 A07C0193
+P 1250 3550
+F 0 "#GND6" H 1250 3550 50  0001 C CNN
+F 1 "GND" H 1150 3450 59  0000 L BNN
+F 2 "" H 1250 3550 50  0001 C CNN
+F 3 "" H 1250 3550 50  0001 C CNN
+	1    1250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND11
+U 1 1 19DA8D48
+P 2250 3550
+F 0 "#GND11" H 2250 3550 50  0001 C CNN
+F 1 "GND" H 2150 3450 59  0000 L BNN
+F 2 "" H 2250 3550 50  0001 C CNN
+F 3 "" H 2250 3550 50  0001 C CNN
+	1    2250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND14
+U 1 1 109F320A
+P 2950 3550
+F 0 "#GND14" H 2950 3550 50  0001 C CNN
+F 1 "GND" H 2850 3450 59  0000 L BNN
+F 2 "" H 2950 3550 50  0001 C CNN
+F 3 "" H 2950 3550 50  0001 C CNN
+	1    2950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R8
+U 1 1 D43E6860
+P 3250 2850
+F 0 "R8" H 3100 2909 59  0000 L BNN
+F 1 "100k" H 3100 2720 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 3250 2850 50  0001 C CNN
+F 3 "" H 3250 2850 50  0001 C CNN
+	1    3250 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:4046D IC4
+U 1 1 92DE87D3
+P 6650 3550
+F 0 "IC4" H 6600 3525 59  0000 L BNN
+F 1 "74HCT4046D" H 6250 2750 59  0001 L BNN
+F 2 "M17_soundcard:SO16" H 6650 3550 50  0001 C CNN
+F 3 "" H 6650 3550 50  0001 C CNN
+	1    6650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R10
+U 1 1 7D632EE9
+P 8550 3650
+F 0 "R10" H 8400 3709 59  0000 L BNN
+F 1 "TBF" H 8400 3520 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 8550 3650 50  0001 C CNN
+F 3 "" H 8550 3650 50  0001 C CNN
+	1    8550 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C22
+U 1 1 B0A1F820
+P 8050 3850
+F 0 "C22" H 8110 3865 59  0000 L BNN
+F 1 "TBF" H 8110 3665 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 8050 3850 50  0001 C CNN
+F 3 "" H 8050 3850 50  0001 C CNN
+	1    8050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C23
+U 1 1 A456E222
+P 8550 4150
+F 0 "C23" H 8610 4165 59  0000 L BNN
+F 1 "TBF" H 8610 3965 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 8550 4150 50  0001 C CNN
+F 3 "" H 8550 4150 50  0001 C CNN
+	1    8550 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R9
+U 1 1 2A873AC9
+P 7650 3350
+F 0 "R9" H 7500 3409 59  0000 L BNN
+F 1 "TBF" H 7500 3220 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 7650 3350 50  0001 C CNN
+F 3 "" H 7650 3350 50  0001 C CNN
+	1    7650 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND30
+U 1 1 E66C1352
+P 8550 4450
+F 0 "#GND30" H 8550 4450 50  0001 C CNN
+F 1 "GND" H 8450 4350 59  0000 L BNN
+F 2 "" H 8550 4450 50  0001 C CNN
+F 3 "" H 8550 4450 50  0001 C CNN
+	1    8550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND28
+U 1 1 0345B4CC
+P 8050 4450
+F 0 "#GND28" H 8050 4450 50  0001 C CNN
+F 1 "GND" H 7950 4350 59  0000 L BNN
+F 2 "" H 8050 4450 50  0001 C CNN
+F 3 "" H 8050 4450 50  0001 C CNN
+	1    8050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND27
+U 1 1 419D9C11
+P 7350 4450
+F 0 "#GND27" H 7350 4450 50  0001 C CNN
+F 1 "GND" H 7250 4350 59  0000 L BNN
+F 2 "" H 7350 4450 50  0001 C CNN
+F 3 "" H 7350 4450 50  0001 C CNN
+	1    7350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:+5V #P+7
+U 1 1 BC2DCEA9
+P 5750 3950
+F 0 "#P+7" H 5750 3950 50  0001 C CNN
+F 1 "+5V" V 5650 3750 59  0000 L BNN
+F 2 "" H 5750 3950 50  0001 C CNN
+F 3 "" H 5750 3950 50  0001 C CNN
+	1    5750 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND25
+U 1 1 2EE633C3
+P 6950 2050
+F 0 "#GND25" H 6950 2050 50  0001 C CNN
+F 1 "GND" H 6850 1950 59  0000 L BNN
+F 2 "" H 6950 2050 50  0001 C CNN
+F 3 "" H 6950 2050 50  0001 C CNN
+	1    6950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R5
+U 1 1 0764E48A
+P 2550 1250
+F 0 "R5" H 2400 1309 59  0000 L BNN
+F 1 "10k" H 2400 1120 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 2550 1250 50  0001 C CNN
+F 3 "" H 2550 1250 50  0001 C CNN
+	1    2550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R3
+U 1 1 17F9581F
+P 2250 950
+F 0 "R3" H 2100 1009 59  0000 L BNN
+F 1 "22k" H 2100 820 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 2250 950 50  0001 C CNN
+F 3 "" H 2250 950 50  0001 C CNN
+	1    2250 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND12
+U 1 1 A5F18D96
+P 2550 850
+F 0 "#GND12" H 2550 850 50  0001 C CNN
+F 1 "GND" H 2450 750 59  0000 L BNN
+F 2 "" H 2550 850 50  0001 C CNN
+F 3 "" H 2550 850 50  0001 C CNN
+	1    2550 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND18
+U 1 1 E0081D19
+P 4050 4650
+F 0 "#GND18" H 4050 4650 50  0001 C CNN
+F 1 "GND" H 3950 4550 59  0000 L BNN
+F 2 "" H 4050 4650 50  0001 C CNN
+F 3 "" H 4050 4650 50  0001 C CNN
+	1    4050 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND16
+U 1 1 99D4D269
+P 4650 8750
+F 0 "#GND16" H 4650 8750 50  0001 C CNN
+F 1 "GND" H 4550 8650 59  0000 L BNN
+F 2 "" H 4650 8750 50  0001 C CNN
+F 3 "" H 4650 8750 50  0001 C CNN
+	1    4650 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C16
+U 1 1 E207C13D
+P 4650 7750
+F 0 "C16" H 4710 7765 59  0000 L BNN
+F 1 "100n" H 4710 7565 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 4650 7750 50  0001 C CNN
+F 3 "" H 4650 7750 50  0001 C CNN
+	1    4650 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C17
+U 1 1 CFDD2E19
+P 5050 7750
+F 0 "C17" H 5110 7765 59  0000 L BNN
+F 1 "10u/10V" H 5110 7565 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 5050 7750 50  0001 C CNN
+F 3 "" H 5050 7750 50  0001 C CNN
+	1    5050 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C25
+U 1 1 1DB35DCC
+P 10150 8550
+F 0 "C25" H 10210 8565 59  0000 L BNN
+F 1 "100n" H 10210 8365 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 10150 8550 50  0001 C CNN
+F 3 "" H 10150 8550 50  0001 C CNN
+	1    10150 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C27
+U 1 1 6E577139
+P 10450 8550
+F 0 "C27" H 10510 8565 59  0000 L BNN
+F 1 "22u/10V" H 10510 8365 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 10450 8550 50  0001 C CNN
+F 3 "" H 10450 8550 50  0001 C CNN
+	1    10450 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND32
+U 1 1 BDD76BF8
+P 10150 8950
+F 0 "#GND32" H 10150 8950 50  0001 C CNN
+F 1 "GND" H 10050 8850 59  0000 L BNN
+F 2 "" H 10150 8950 50  0001 C CNN
+F 3 "" H 10150 8950 50  0001 C CNN
+	1    10150 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND34
+U 1 1 0FD0C583
+P 10450 8950
+F 0 "#GND34" H 10450 8950 50  0001 C CNN
+F 1 "GND" H 10350 8850 59  0000 L BNN
+F 2 "" H 10450 8950 50  0001 C CNN
+F 3 "" H 10450 8950 50  0001 C CNN
+	1    10450 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:+5V #P+9
+U 1 1 540F2EFD
+P 11150 8150
+F 0 "#P+9" H 11150 8150 50  0001 C CNN
+F 1 "+5V" V 11050 7950 59  0000 L BNN
+F 2 "" H 11150 8150 50  0001 C CNN
+F 3 "" H 11150 8150 50  0001 C CNN
+	1    11150 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND29
+U 1 1 BFC01DE5
+P 9650 7950
+F 0 "#GND29" H 9650 7950 50  0001 C CNN
+F 1 "GND" H 9550 7850 59  0000 L BNN
+F 2 "" H 9650 7950 50  0001 C CNN
+F 3 "" H 9650 7950 50  0001 C CNN
+	1    9650 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C24
+U 1 1 C533F2EC
+P 10150 7850
+F 0 "C24" H 10210 7865 59  0000 L BNN
+F 1 "100n" H 10210 7665 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 10150 7850 50  0001 C CNN
+F 3 "" H 10150 7850 50  0001 C CNN
+	1    10150 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C26
+U 1 1 6CB74EA0
+P 10450 7850
+F 0 "C26" H 10510 7865 59  0000 L BNN
+F 1 "22u/10V" H 10510 7665 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 10450 7850 50  0001 C CNN
+F 3 "" H 10450 7850 50  0001 C CNN
+	1    10450 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND31
+U 1 1 E3033BC1
+P 10150 7550
+F 0 "#GND31" H 10150 7550 50  0001 C CNN
+F 1 "GND" H 10050 7450 59  0000 L BNN
+F 2 "" H 10150 7550 50  0001 C CNN
+F 3 "" H 10150 7550 50  0001 C CNN
+	1    10150 7550
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND33
+U 1 1 8D923520
+P 10450 7550
+F 0 "#GND33" H 10450 7550 50  0001 C CNN
+F 1 "GND" H 10350 7450 59  0000 L BNN
+F 2 "" H 10450 7550 50  0001 C CNN
+F 3 "" H 10450 7550 50  0001 C CNN
+	1    10450 7550
+	-1   0    0    1   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:+5V #P+8
+U 1 1 B54CCCBB
+P 9150 6150
+F 0 "#P+8" H 9150 6150 50  0001 C CNN
+F 1 "+5V" V 9050 5950 59  0000 L BNN
+F 2 "" H 9150 6150 50  0001 C CNN
+F 3 "" H 9150 6150 50  0001 C CNN
+	1    9150 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:+5V #P+6
+U 1 1 B0F39303
+P 5050 6950
+F 0 "#P+6" H 5050 6950 50  0001 C CNN
+F 1 "+5V" V 4950 6750 59  0000 L BNN
+F 2 "" H 5050 6950 50  0001 C CNN
+F 3 "" H 5050 6950 50  0001 C CNN
+	1    5050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:SM-B5 L1
+U 1 1 3C5A30A8
+P 5050 7250
+F 0 "L1" H 4880 7300 59  0000 L BNN
+F 1 "BEAD" H 4880 7090 59  0000 L BNN
+F 2 "M17_soundcard:SM-B5" H 5050 7250 50  0001 C CNN
+F 3 "" H 5050 7250 50  0001 C CNN
+	1    5050 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:SM-B5 L2
+U 1 1 074877D3
+P 8850 6150
+F 0 "L2" H 8680 6200 59  0000 L BNN
+F 1 "BEAD" H 8680 5990 59  0000 L BNN
+F 2 "M17_soundcard:SM-B5" H 8850 6150 50  0001 C CNN
+F 3 "" H 8850 6150 50  0001 C CNN
+	1    8850 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:R-EU_R0805 R15
+U 1 1 806A6E69
+P 10750 8350
+F 0 "R15" H 10600 8409 59  0000 L BNN
+F 1 "1.5k" H 10600 8220 59  0000 L BNN
+F 2 "M17_soundcard:R0805" H 10750 8350 50  0001 C CNN
+F 3 "" H 10750 8350 50  0001 C CNN
+	1    10750 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND17
+U 1 1 0A5A0AC8
+P 4050 2550
+F 0 "#GND17" H 4050 2550 50  0001 C CNN
+F 1 "GND" H 3950 2450 59  0000 L BNN
+F 2 "" H 4050 2550 50  0001 C CNN
+F 3 "" H 4050 2550 50  0001 C CNN
+	1    4050 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND13
+U 1 1 9E3D6951
+P 2650 4950
+F 0 "#GND13" H 2650 4950 50  0001 C CNN
+F 1 "GND" H 2550 4850 59  0000 L BNN
+F 2 "" H 2650 4950 50  0001 C CNN
+F 3 "" H 2650 4950 50  0001 C CNN
+	1    2650 4950
+	1    0    0    -1  
+$EndComp
+Text Notes 5550 2950 0    85   ~ 0
+DIV 6
+Text Notes 5550 3550 0    85   ~ 0
+DIV 5
+$Comp
+L M17_soundcard-eagle-import:GND #GND15
+U 1 1 257B06B4
+P 2700 8950
+F 0 "#GND15" H 2700 8950 50  0001 C CNN
+F 1 "GND" H 2600 8850 59  0000 L BNN
+F 2 "" H 2700 8950 50  0001 C CNN
+F 3 "" H 2700 8950 50  0001 C CNN
+	1    2700 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:+5V #P+5
+U 1 1 33ACA7EC
+P 2700 7750
+F 0 "#P+5" H 2700 7750 50  0001 C CNN
+F 1 "+5V" V 2600 7550 59  0000 L BNN
+F 2 "" H 2700 7750 50  0001 C CNN
+F 3 "" H 2700 7750 50  0001 C CNN
+	1    2700 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C14
+U 1 1 615BADCC
+P 2300 8250
+F 0 "C14" H 2360 8265 59  0000 L BNN
+F 1 "1u/10V" H 2360 8065 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 2300 8250 50  0001 C CNN
+F 3 "" H 2300 8250 50  0001 C CNN
+	1    2300 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C15
+U 1 1 9DEF2EB6
+P 2700 8250
+F 0 "C15" H 2760 8265 59  0000 L BNN
+F 1 "100n" H 2760 8065 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 2700 8250 50  0001 C CNN
+F 3 "" H 2700 8250 50  0001 C CNN
+	1    2700 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:4046D IC4
+U 2 1 92DE87DF
+P 3100 8350
+F 0 "IC4" H 3050 8325 59  0000 L BNN
+F 1 "74HCT4046D" H 2700 7550 59  0001 L BNN
+F 2 "M17_soundcard:SO16" H 3100 8350 50  0001 C CNN
+F 3 "" H 3100 8350 50  0001 C CNN
+	2    3100 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND10
+U 1 1 845C69E3
+P 1500 8950
+F 0 "#GND10" H 1500 8950 50  0001 C CNN
+F 1 "GND" H 1400 8850 59  0000 L BNN
+F 2 "" H 1500 8950 50  0001 C CNN
+F 3 "" H 1500 8950 50  0001 C CNN
+	1    1500 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND1
+U 1 1 DB8695AC
+P 1500 7400
+F 0 "#GND1" H 1500 7400 50  0001 C CNN
+F 1 "GND" H 1400 7300 59  0000 L BNN
+F 2 "" H 1500 7400 50  0001 C CNN
+F 3 "" H 1500 7400 50  0001 C CNN
+	1    1500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:+5V #P+1
+U 1 1 BCDF72C5
+P 1500 6200
+F 0 "#P+1" H 1500 6200 50  0001 C CNN
+F 1 "+5V" V 1400 6000 59  0000 L BNN
+F 2 "" H 1500 6200 50  0001 C CNN
+F 3 "" H 1500 6200 50  0001 C CNN
+	1    1500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:+5V #P+4
+U 1 1 A7FDB2D8
+P 1500 7750
+F 0 "#P+4" H 1500 7750 50  0001 C CNN
+F 1 "+5V" V 1400 7550 59  0000 L BNN
+F 2 "" H 1500 7750 50  0001 C CNN
+F 3 "" H 1500 7750 50  0001 C CNN
+	1    1500 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:GND #GND4
+U 1 1 D896219B
+P 2700 7400
+F 0 "#GND4" H 2700 7400 50  0001 C CNN
+F 1 "GND" H 2600 7300 59  0000 L BNN
+F 2 "" H 2700 7400 50  0001 C CNN
+F 3 "" H 2700 7400 50  0001 C CNN
+	1    2700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:+5V #P+2
+U 1 1 339DE9D3
+P 2700 6200
+F 0 "#P+2" H 2700 6200 50  0001 C CNN
+F 1 "+5V" V 2600 6000 59  0000 L BNN
+F 2 "" H 2700 6200 50  0001 C CNN
+F 3 "" H 2700 6200 50  0001 C CNN
+	1    2700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C9
+U 1 1 389E80F6
+P 1100 8250
+F 0 "C9" H 1160 8265 59  0000 L BNN
+F 1 "1u/10V" H 1160 8065 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 1100 8250 50  0001 C CNN
+F 3 "" H 1100 8250 50  0001 C CNN
+	1    1100 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C11
+U 1 1 59663956
+P 1500 8250
+F 0 "C11" H 1560 8265 59  0000 L BNN
+F 1 "100n" H 1560 8065 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 1500 8250 50  0001 C CNN
+F 3 "" H 1500 8250 50  0001 C CNN
+	1    1500 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C1
+U 1 1 3EF950B4
+P 1100 6700
+F 0 "C1" H 1160 6715 59  0000 L BNN
+F 1 "1u/10V" H 1160 6515 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 1100 6700 50  0001 C CNN
+F 3 "" H 1100 6700 50  0001 C CNN
+	1    1100 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C2
+U 1 1 69098DAB
+P 1500 6700
+F 0 "C2" H 1560 6715 59  0000 L BNN
+F 1 "100n" H 1560 6515 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 1500 6700 50  0001 C CNN
+F 3 "" H 1500 6700 50  0001 C CNN
+	1    1500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C3
+U 1 1 1593F66F
+P 2300 6700
+F 0 "C3" H 2360 6715 59  0000 L BNN
+F 1 "1u/10V" H 2360 6515 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 2300 6700 50  0001 C CNN
+F 3 "" H 2300 6700 50  0001 C CNN
+	1    2300 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:C-EUC0805 C5
+U 1 1 F9108C4C
+P 2700 6700
+F 0 "C5" H 2760 6715 59  0000 L BNN
+F 1 "100n" H 2760 6515 59  0000 L BNN
+F 2 "M17_soundcard:C0805" H 2700 6700 50  0001 C CNN
+F 3 "" H 2700 6700 50  0001 C CNN
+	1    2700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:4017D IC2
+U 2 1 3CED4EAE
+P 3100 6800
+F 0 "IC2" H 3050 6775 59  0000 L BNN
+F 1 "74HCT4017D" H 2800 6000 59  0001 L BNN
+F 2 "M17_soundcard:SO16" H 3100 6800 50  0001 C CNN
+F 3 "" H 3100 6800 50  0001 C CNN
+	2    3100 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:4017D IC3
+U 2 1 362867C3
+P 1900 8350
+F 0 "IC3" H 1850 8325 59  0000 L BNN
+F 1 "74HCT4017D" H 1600 7550 59  0001 L BNN
+F 2 "M17_soundcard:SO16" H 1900 8350 50  0001 C CNN
+F 3 "" H 1900 8350 50  0001 C CNN
+	2    1900 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L M17_soundcard-eagle-import:7404D IC1
+U 7 1 06F9202F
+P 1900 6800
+F 0 "IC1" H 1875 6775 59  0000 L BNN
+F 1 "7404D" H 2000 6600 59  0001 L BNN
+F 2 "M17_soundcard:SO14" H 1900 6800 50  0001 C CNN
+F 3 "" H 1900 6800 50  0001 C CNN
+	7    1900 6800
+	1    0    0    -1  
+$EndComp
+Text Label 2300 8150 0    10   ~ 0
++5V
+Connection ~ 2700 7950
+Wire Wire Line
+	3100 7950 3100 8050
+Wire Wire Line
+	2700 7850 2700 7950
+Wire Wire Line
+	2700 8150 2700 7950
+Wire Wire Line
+	2700 7950 3100 7950
+Wire Wire Line
+	2300 7950 2700 7950
+Wire Wire Line
+	2300 8150 2300 7950
+Text Label 1100 6600 0    10   ~ 0
++5V
+Connection ~ 1500 6400
+Wire Wire Line
+	1500 6300 1500 6400
+Wire Wire Line
+	1500 6600 1500 6400
+Wire Wire Line
+	1900 6400 1900 6500
+Wire Wire Line
+	1500 6400 1900 6400
+Wire Wire Line
+	1100 6400 1500 6400
+Wire Wire Line
+	1100 6600 1100 6400
+Text Label 1900 8050 0    10   ~ 0
++5V
+Connection ~ 1500 7950
+Wire Wire Line
+	1500 7850 1500 7950
+Wire Wire Line
+	1500 8150 1500 7950
+Wire Wire Line
+	1100 7950 1100 8150
+Wire Wire Line
+	1500 7950 1100 7950
+Wire Wire Line
+	1900 7950 1500 7950
+Wire Wire Line
+	1900 8050 1900 7950
+Text Label 3100 6500 0    10   ~ 0
++5V
+Connection ~ 2700 6400
+Wire Wire Line
+	2700 6300 2700 6400
+Wire Wire Line
+	2700 6600 2700 6400
+Wire Wire Line
+	2300 6400 2300 6600
+Wire Wire Line
+	2700 6400 2300 6400
+Wire Wire Line
+	3100 6400 2700 6400
+Wire Wire Line
+	3100 6500 3100 6400
+Text Label 3100 8750 0    10   ~ 0
+GND
+Connection ~ 2700 8750
+Wire Wire Line
+	3100 8650 3100 8750
+Wire Wire Line
+	2700 8850 2700 8750
+Wire Wire Line
+	2700 8450 2700 8750
+Wire Wire Line
+	2300 8750 2300 8450
+Wire Wire Line
+	2700 8750 2300 8750
+Wire Wire Line
+	3100 8750 2700 8750
+Text Label 1900 7100 0    10   ~ 0
+GND
+Connection ~ 1500 7200
+Wire Wire Line
+	1500 7300 1500 7200
+Wire Wire Line
+	1500 6900 1500 7200
+Wire Wire Line
+	1100 7200 1100 6900
+Wire Wire Line
+	1500 7200 1100 7200
+Wire Wire Line
+	1900 7200 1500 7200
+Wire Wire Line
+	1900 7100 1900 7200
+Text Label 1100 8450 0    10   ~ 0
+GND
+Connection ~ 1500 8750
+Wire Wire Line
+	1500 8850 1500 8750
+Wire Wire Line
+	1500 8450 1500 8750
+Wire Wire Line
+	1900 8750 1900 8650
+Wire Wire Line
+	1500 8750 1900 8750
+Wire Wire Line
+	1100 8750 1500 8750
+Wire Wire Line
+	1100 8450 1100 8750
+Text Label 2300 6900 0    10   ~ 0
+GND
+Connection ~ 2700 7200
+Wire Wire Line
+	2700 7300 2700 7200
+Wire Wire Line
+	2700 6900 2700 7200
+Wire Wire Line
+	3100 7200 3100 7100
+Wire Wire Line
+	2700 7200 3100 7200
+Wire Wire Line
+	2300 7200 2700 7200
+Wire Wire Line
+	2300 6900 2300 7200
+$EndSCHEMATC
