@@ -1,4 +1,4 @@
-update=mer 19 mag 2021, 15:36:39
+update=ven 29 ott 2021, 06:56:50
 version=1
 last_client=eeschema
 [general]
