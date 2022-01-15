@@ -100,11 +100,11 @@ Connection ~ 6950 1750
 Text Label 6950 1250 0    10   ~ 0
 GND
 Wire Wire Line
-	2250 750  2250 650 
+	2250 750  2250 650
 Wire Wire Line
-	2250 650  2550 650 
+	2250 650  2550 650
 Wire Wire Line
-	2550 650  2550 750 
+	2550 650  2550 750
 Text Label 2250 750  0    10   ~ 0
 GND
 Wire Wire Line
@@ -313,7 +313,7 @@ F 1 "USBMINIB" H 4300 8925 42  0000 L BNN
 F 2 "M17_soundcard:USB-MINIB" H 4700 9325 50  0001 C CNN
 F 3 "" H 4700 9325 50  0001 C CNN
 	1    4700 9325
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND2
@@ -324,7 +324,7 @@ F 1 "GND" H 5100 9825 59  0000 L BNN
 F 2 "" H 5200 9925 50  0001 C CNN
 F 3 "" H 5200 9925 50  0001 C CNN
 	1    5200 9925
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:+5V #P+3
@@ -335,7 +335,7 @@ F 1 "+5V" V 6100 8725 59  0000 L BNN
 F 2 "" H 6200 8925 50  0001 C CNN
 F 3 "" H 6200 8925 50  0001 C CNN
 	1    6200 8925
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC1206 C8
@@ -346,7 +346,7 @@ F 1 "10u/10V" H 6260 9340 59  0000 L BNN
 F 2 "M17_soundcard:C1206" H 6200 9525 50  0001 C CNN
 F 3 "" H 6200 9525 50  0001 C CNN
 	1    6200 9525
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C4
@@ -357,7 +357,7 @@ F 1 "100p" H 5460 9340 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 5400 9525 50  0001 C CNN
 F 3 "" H 5400 9525 50  0001 C CNN
 	1    5400 9525
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C6
@@ -368,7 +368,7 @@ F 1 "100p" H 5860 9340 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 5800 9525 50  0001 C CNN
 F 3 "" H 5800 9525 50  0001 C CNN
 	1    5800 9525
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND3
@@ -379,7 +379,7 @@ F 1 "GND" H 5300 9825 59  0000 L BNN
 F 2 "" H 5400 9925 50  0001 C CNN
 F 3 "" H 5400 9925 50  0001 C CNN
 	1    5400 9925
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND5
@@ -390,7 +390,7 @@ F 1 "GND" H 5700 9825 59  0000 L BNN
 F 2 "" H 5800 9925 50  0001 C CNN
 F 3 "" H 5800 9925 50  0001 C CNN
 	1    5800 9925
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND7
@@ -401,7 +401,7 @@ F 1 "GND" H 6100 9825 59  0000 L BNN
 F 2 "" H 6200 9925 50  0001 C CNN
 F 3 "" H 6200 9925 50  0001 C CNN
 	1    6200 9925
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R2
@@ -412,7 +412,7 @@ F 1 "22R" H 6850 9095 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 7000 9225 50  0001 C CNN
 F 3 "" H 7000 9225 50  0001 C CNN
 	1    7000 9225
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R6
@@ -423,7 +423,7 @@ F 1 "22R" H 7250 9195 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 7400 9325 50  0001 C CNN
 F 3 "" H 7400 9325 50  0001 C CNN
 	1    7400 9325
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC1206 C10
@@ -434,7 +434,7 @@ F 1 "10u/10V" H 6660 9340 59  0000 L BNN
 F 2 "M17_soundcard:C1206" H 6600 9525 50  0001 C CNN
 F 3 "" H 6600 9525 50  0001 C CNN
 	1    6600 9525
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND9
@@ -445,7 +445,7 @@ F 1 "GND" H 6500 9825 59  0000 L BNN
 F 2 "" H 6600 9925 50  0001 C CNN
 F 3 "" H 6600 9925 50  0001 C CNN
 	1    6600 9925
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:?2271611- X3
@@ -456,7 +456,7 @@ F 1 "INP_A" H 14600 1075 59  0000 L BNN
 F 2 "M17_soundcard:AMP_227161" H 14700 1275 50  0001 C CNN
 F 3 "" H 14700 1275 50  0001 C CNN
 	1    14700 1275
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:?2271611- X4
@@ -467,7 +467,7 @@ F 1 "INP_B" H 14600 1775 59  0000 L BNN
 F 2 "M17_soundcard:AMP_227161" H 14700 1975 50  0001 C CNN
 F 3 "" H 14700 1975 50  0001 C CNN
 	1    14700 1975
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:?2271611- X5
@@ -478,7 +478,7 @@ F 1 "OUT_A" H 14600 2575 59  0000 L BNN
 F 2 "M17_soundcard:AMP_227161" H 14700 2775 50  0001 C CNN
 F 3 "" H 14700 2775 50  0001 C CNN
 	1    14700 2775
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:?2271611- X6
@@ -489,7 +489,7 @@ F 1 "OUT_B" H 14600 3275 59  0000 L BNN
 F 2 "M17_soundcard:AMP_227161" H 14700 3475 50  0001 C CNN
 F 3 "" H 14700 3475 50  0001 C CNN
 	1    14700 3475
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:?2271611- X1
@@ -500,7 +500,7 @@ F 1 "10M_REF" H 1150 4050 59  0000 L BNN
 F 2 "M17_soundcard:AMP_227161" H 1250 4250 50  0001 C CNN
 F 3 "" H 1250 4250 50  0001 C CNN
 	1    1250 4250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:4017D IC3
@@ -511,7 +511,7 @@ F 1 "74HCT4017D" H 4450 3450 59  0001 L BNN
 F 2 "M17_soundcard:SO16" H 4750 4250 50  0001 C CNN
 F 3 "" H 4750 4250 50  0001 C CNN
 	1    4750 4250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:4017D IC2
@@ -522,7 +522,7 @@ F 1 "74HCT4017D" H 4450 1350 59  0001 L BNN
 F 2 "M17_soundcard:SO16" H 4750 2150 50  0001 C CNN
 F 3 "" H 4750 2150 50  0001 C CNN
 	1    4750 2150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:7404D IC1
@@ -533,7 +533,7 @@ F 1 "7404D" H 1850 1950 59  0001 L BNN
 F 2 "M17_soundcard:SO14" H 1750 2150 50  0001 C CNN
 F 3 "" H 1750 2150 50  0001 C CNN
 	1    1750 2150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:7404D IC1
@@ -544,7 +544,7 @@ F 1 "7404D" H 3250 1950 59  0001 L BNN
 F 2 "M17_soundcard:SO14" H 3150 2150 50  0001 C CNN
 F 3 "" H 3150 2150 50  0001 C CNN
 	2    3150 2150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:7404D IC1
@@ -555,7 +555,7 @@ F 1 "7404D" H 3350 1050 59  0001 L BNN
 F 2 "M17_soundcard:SO14" H 3250 1250 50  0001 C CNN
 F 3 "" H 3250 1250 50  0001 C CNN
 	3    3250 1250
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:7404D IC1
@@ -566,7 +566,7 @@ F 1 "7404D" H 7550 1050 59  0001 L BNN
 F 2 "M17_soundcard:SO14" H 7450 1250 50  0001 C CNN
 F 3 "" H 7450 1250 50  0001 C CNN
 	4    7450 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:7404D IC1
@@ -577,7 +577,7 @@ F 1 "7404D" H 7550 1550 59  0001 L BNN
 F 2 "M17_soundcard:SO14" H 7450 1750 50  0001 C CNN
 F 3 "" H 7450 1750 50  0001 C CNN
 	5    7450 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:7404D IC1
@@ -588,7 +588,7 @@ F 1 "7404D" H 3350 4050 59  0001 L BNN
 F 2 "M17_soundcard:SO14" H 3250 4250 50  0001 C CNN
 F 3 "" H 3250 4250 50  0001 C CNN
 	6    3250 4250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:CRYSTALS-NOGND-HC49_4H X2
@@ -599,7 +599,7 @@ F 1 "12MHz" H 1850 2750 59  0000 L BNN
 F 2 "M17_soundcard:HC49" H 1750 2850 50  0001 C CNN
 F 3 "" H 1750 2850 50  0001 C CNN
 	1    1750 2850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:BB141 D1
@@ -610,7 +610,7 @@ F 1 "BB181" H 2880 3005 59  0000 L BNN
 F 2 "M17_soundcard:SOD523" H 2950 3150 50  0001 C CNN
 F 3 "" H 2950 3150 50  0001 C CNN
 	1    2950 3150
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R11
@@ -621,7 +621,7 @@ F 1 "47k" H 14050 1145 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 14200 1275 50  0001 C CNN
 F 3 "" H 14200 1275 50  0001 C CNN
 	1    14200 1275
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R12
@@ -632,7 +632,7 @@ F 1 "47k" H 14050 1845 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 14200 1975 50  0001 C CNN
 F 3 "" H 14200 1975 50  0001 C CNN
 	1    14200 1975
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R13
@@ -643,7 +643,7 @@ F 1 "47R" H 14050 2645 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 14200 2775 50  0001 C CNN
 F 3 "" H 14200 2775 50  0001 C CNN
 	1    14200 2775
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R14
@@ -654,7 +654,7 @@ F 1 "47R" H 14050 3345 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 14200 3475 50  0001 C CNN
 F 3 "" H 14200 3475 50  0001 C CNN
 	1    14200 3475
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND35
@@ -665,7 +665,7 @@ F 1 "GND" H 14400 3775 59  0000 L BNN
 F 2 "" H 14500 3875 50  0001 C CNN
 F 3 "" H 14500 3875 50  0001 C CNN
 	1    14500 3875
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R7
@@ -676,7 +676,7 @@ F 1 "47R" H 2500 4420 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 2650 4550 50  0001 C CNN
 F 3 "" H 2650 4550 50  0001 C CNN
 	1    2650 4550
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND8
@@ -687,7 +687,7 @@ F 1 "GND" H 1350 4550 59  0000 L BNN
 F 2 "" H 1450 4650 50  0001 C CNN
 F 3 "" H 1450 4650 50  0001 C CNN
 	1    1450 4650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R1
@@ -698,7 +698,7 @@ F 1 "1M" H 1600 1620 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 1750 1750 50  0001 C CNN
 F 3 "" H 1750 1750 50  0001 C CNN
 	1    1750 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R4
@@ -709,7 +709,7 @@ F 1 "1.2k" H 2100 2420 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 2250 2550 50  0001 C CNN
 F 3 "" H 2250 2550 50  0001 C CNN
 	1    2250 2550
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C7
@@ -720,7 +720,7 @@ F 1 "18p" H 1310 2965 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 1250 3150 50  0001 C CNN
 F 3 "" H 1250 3150 50  0001 C CNN
 	1    1250 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C12
@@ -731,7 +731,7 @@ F 1 "12p" H 2310 2965 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 2250 3150 50  0001 C CNN
 F 3 "" H 2250 3150 50  0001 C CNN
 	1    2250 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C13
@@ -742,7 +742,7 @@ F 1 "12p" H 2610 2665 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 2550 2850 50  0001 C CNN
 F 3 "" H 2550 2850 50  0001 C CNN
 	1    2550 2850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND6
@@ -753,7 +753,7 @@ F 1 "GND" H 1150 3450 59  0000 L BNN
 F 2 "" H 1250 3550 50  0001 C CNN
 F 3 "" H 1250 3550 50  0001 C CNN
 	1    1250 3550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND11
@@ -764,7 +764,7 @@ F 1 "GND" H 2150 3450 59  0000 L BNN
 F 2 "" H 2250 3550 50  0001 C CNN
 F 3 "" H 2250 3550 50  0001 C CNN
 	1    2250 3550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND14
@@ -775,7 +775,7 @@ F 1 "GND" H 2850 3450 59  0000 L BNN
 F 2 "" H 2950 3550 50  0001 C CNN
 F 3 "" H 2950 3550 50  0001 C CNN
 	1    2950 3550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R8
@@ -786,7 +786,7 @@ F 1 "100k" H 3100 2720 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 3250 2850 50  0001 C CNN
 F 3 "" H 3250 2850 50  0001 C CNN
 	1    3250 2850
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:4046D IC4
@@ -797,40 +797,40 @@ F 1 "74HCT4046D" H 6250 2750 59  0001 L BNN
 F 2 "M17_soundcard:SO16" H 6650 3550 50  0001 C CNN
 F 3 "" H 6650 3550 50  0001 C CNN
 	1    6650 3550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R10
 U 1 1 7D632EE9
 P 8550 3650
 F 0 "R10" H 8400 3709 59  0000 L BNN
-F 1 "100R" H 8400 3520 59  0000 L BNN
+F 1 "56k" H 8400 3520 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 8550 3650 50  0001 C CNN
 F 3 "" H 8550 3650 50  0001 C CNN
 	1    8550 3650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C22
 U 1 1 B0A1F820
 P 8050 3850
 F 0 "C22" H 8125 3675 59  0000 L BNN
-F 1 "22nF" H 8125 3575 59  0000 L BNN
+F 1 "15nF" H 8125 3575 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 8050 3850 50  0001 C CNN
 F 3 "" H 8050 3850 50  0001 C CNN
 	1    8050 3850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C23
 U 1 1 A456E222
 P 8550 4150
 F 0 "C23" H 8275 4050 59  0000 L BNN
-F 1 "100nF" H 8175 4150 59  0000 L BNN
+F 1 "68nF" H 8175 4150 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 8550 4150 50  0001 C CNN
 F 3 "" H 8550 4150 50  0001 C CNN
 	1    8550 4150
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R9
@@ -841,7 +841,7 @@ F 1 "1k" H 7500 3220 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 7650 3350 50  0001 C CNN
 F 3 "" H 7650 3350 50  0001 C CNN
 	1    7650 3350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND30
@@ -852,7 +852,7 @@ F 1 "GND" H 8450 4350 59  0000 L BNN
 F 2 "" H 8550 4450 50  0001 C CNN
 F 3 "" H 8550 4450 50  0001 C CNN
 	1    8550 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND28
@@ -863,7 +863,7 @@ F 1 "GND" H 7950 4350 59  0000 L BNN
 F 2 "" H 8050 4450 50  0001 C CNN
 F 3 "" H 8050 4450 50  0001 C CNN
 	1    8050 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND27
@@ -874,7 +874,7 @@ F 1 "GND" H 7250 4350 59  0000 L BNN
 F 2 "" H 7350 4450 50  0001 C CNN
 F 3 "" H 7350 4450 50  0001 C CNN
 	1    7350 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:+5V #P+7
@@ -885,7 +885,7 @@ F 1 "+5V" V 5650 3750 59  0000 L BNN
 F 2 "" H 5750 3950 50  0001 C CNN
 F 3 "" H 5750 3950 50  0001 C CNN
 	1    5750 3950
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND25
@@ -896,7 +896,7 @@ F 1 "GND" H 6850 1950 59  0000 L BNN
 F 2 "" H 6950 2050 50  0001 C CNN
 F 3 "" H 6950 2050 50  0001 C CNN
 	1    6950 2050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R5
@@ -907,7 +907,7 @@ F 1 "10k" H 2400 1120 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 2550 1250 50  0001 C CNN
 F 3 "" H 2550 1250 50  0001 C CNN
 	1    2550 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:R-EU_R0805 R3
@@ -917,8 +917,8 @@ F 0 "R3" H 2100 1009 59  0000 L BNN
 F 1 "22k" H 2100 820 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 2250 950 50  0001 C CNN
 F 3 "" H 2250 950 50  0001 C CNN
-	1    2250 950 
-	0    -1   -1   0   
+	1    2250 950
+	0    -1   -1   0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND12
@@ -928,8 +928,8 @@ F 0 "#GND12" H 2550 850 50  0001 C CNN
 F 1 "GND" H 2450 750 59  0000 L BNN
 F 2 "" H 2550 850 50  0001 C CNN
 F 3 "" H 2550 850 50  0001 C CNN
-	1    2550 850 
-	1    0    0    -1  
+	1    2550 850
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND18
@@ -940,7 +940,7 @@ F 1 "GND" H 3950 4550 59  0000 L BNN
 F 2 "" H 4050 4650 50  0001 C CNN
 F 3 "" H 4050 4650 50  0001 C CNN
 	1    4050 4650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND17
@@ -951,7 +951,7 @@ F 1 "GND" H 3950 2450 59  0000 L BNN
 F 2 "" H 4050 2550 50  0001 C CNN
 F 3 "" H 4050 2550 50  0001 C CNN
 	1    4050 2550
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND13
@@ -962,7 +962,7 @@ F 1 "GND" H 2550 4850 59  0000 L BNN
 F 2 "" H 2650 4950 50  0001 C CNN
 F 3 "" H 2650 4950 50  0001 C CNN
 	1    2650 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Notes 5550 2950 0    85   ~ 0
 DIV 6
@@ -977,7 +977,7 @@ F 1 "GND" H 2600 8850 59  0000 L BNN
 F 2 "" H 2700 8950 50  0001 C CNN
 F 3 "" H 2700 8950 50  0001 C CNN
 	1    2700 8950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:+5V #P+5
@@ -988,7 +988,7 @@ F 1 "+5V" V 2600 7550 59  0000 L BNN
 F 2 "" H 2700 7750 50  0001 C CNN
 F 3 "" H 2700 7750 50  0001 C CNN
 	1    2700 7750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C14
@@ -999,7 +999,7 @@ F 1 "1u/10V" H 2360 8065 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 2300 8250 50  0001 C CNN
 F 3 "" H 2300 8250 50  0001 C CNN
 	1    2300 8250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C15
@@ -1010,7 +1010,7 @@ F 1 "100n" H 2760 8065 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 2700 8250 50  0001 C CNN
 F 3 "" H 2700 8250 50  0001 C CNN
 	1    2700 8250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:4046D IC4
@@ -1021,7 +1021,7 @@ F 1 "74HCT4046D" H 2700 7550 59  0001 L BNN
 F 2 "M17_soundcard:SO16" H 3100 8350 50  0001 C CNN
 F 3 "" H 3100 8350 50  0001 C CNN
 	2    3100 8350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND10
@@ -1032,7 +1032,7 @@ F 1 "GND" H 1400 8850 59  0000 L BNN
 F 2 "" H 1500 8950 50  0001 C CNN
 F 3 "" H 1500 8950 50  0001 C CNN
 	1    1500 8950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND1
@@ -1043,7 +1043,7 @@ F 1 "GND" H 1400 7300 59  0000 L BNN
 F 2 "" H 1500 7400 50  0001 C CNN
 F 3 "" H 1500 7400 50  0001 C CNN
 	1    1500 7400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:+5V #P+1
@@ -1054,7 +1054,7 @@ F 1 "+5V" V 1400 6000 59  0000 L BNN
 F 2 "" H 1500 6200 50  0001 C CNN
 F 3 "" H 1500 6200 50  0001 C CNN
 	1    1500 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:+5V #P+4
@@ -1065,7 +1065,7 @@ F 1 "+5V" V 1400 7550 59  0000 L BNN
 F 2 "" H 1500 7750 50  0001 C CNN
 F 3 "" H 1500 7750 50  0001 C CNN
 	1    1500 7750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND4
@@ -1076,7 +1076,7 @@ F 1 "GND" H 2600 7300 59  0000 L BNN
 F 2 "" H 2700 7400 50  0001 C CNN
 F 3 "" H 2700 7400 50  0001 C CNN
 	1    2700 7400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:+5V #P+2
@@ -1087,7 +1087,7 @@ F 1 "+5V" V 2600 6000 59  0000 L BNN
 F 2 "" H 2700 6200 50  0001 C CNN
 F 3 "" H 2700 6200 50  0001 C CNN
 	1    2700 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C9
@@ -1098,7 +1098,7 @@ F 1 "1u/10V" H 1160 8065 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 1100 8250 50  0001 C CNN
 F 3 "" H 1100 8250 50  0001 C CNN
 	1    1100 8250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C11
@@ -1109,7 +1109,7 @@ F 1 "100n" H 1560 8065 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 1500 8250 50  0001 C CNN
 F 3 "" H 1500 8250 50  0001 C CNN
 	1    1500 8250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C1
@@ -1120,7 +1120,7 @@ F 1 "1u/10V" H 1160 6515 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 1100 6700 50  0001 C CNN
 F 3 "" H 1100 6700 50  0001 C CNN
 	1    1100 6700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C2
@@ -1131,7 +1131,7 @@ F 1 "100n" H 1560 6515 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 1500 6700 50  0001 C CNN
 F 3 "" H 1500 6700 50  0001 C CNN
 	1    1500 6700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C3
@@ -1142,7 +1142,7 @@ F 1 "1u/10V" H 2360 6515 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 2300 6700 50  0001 C CNN
 F 3 "" H 2300 6700 50  0001 C CNN
 	1    2300 6700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C5
@@ -1153,7 +1153,7 @@ F 1 "100n" H 2760 6515 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 2700 6700 50  0001 C CNN
 F 3 "" H 2700 6700 50  0001 C CNN
 	1    2700 6700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:4017D IC2
@@ -1164,7 +1164,7 @@ F 1 "74HCT4017D" H 2800 6000 59  0001 L BNN
 F 2 "M17_soundcard:SO16" H 3100 6800 50  0001 C CNN
 F 3 "" H 3100 6800 50  0001 C CNN
 	2    3100 6800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:4017D IC3
@@ -1175,7 +1175,7 @@ F 1 "74HCT4017D" H 1600 7550 59  0001 L BNN
 F 2 "M17_soundcard:SO16" H 1900 8350 50  0001 C CNN
 F 3 "" H 1900 8350 50  0001 C CNN
 	2    1900 8350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:7404D IC1
@@ -1186,7 +1186,7 @@ F 1 "7404D" H 2000 6600 59  0001 L BNN
 F 2 "M17_soundcard:SO14" H 1900 6800 50  0001 C CNN
 F 3 "" H 1900 6800 50  0001 C CNN
 	7    1900 6800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 2300 8150 0    10   ~ 0
 +5V
@@ -1317,7 +1317,7 @@ F 1 "1.5k" H 14525 7020 59  0000 L BNN
 F 2 "M17_soundcard:R0805" H 14675 7150 50  0001 C CNN
 F 3 "" H 14675 7150 50  0001 C CNN
 	1    14675 7150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:SM-B5 L2
@@ -1328,7 +1328,7 @@ F 1 "BEAD" H 12605 4790 59  0000 L BNN
 F 2 "M17_soundcard:SM-B5" H 12775 4950 50  0001 C CNN
 F 3 "" H 12775 4950 50  0001 C CNN
 	1    12775 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:SM-B5 L1
@@ -1339,7 +1339,7 @@ F 1 "BEAD" H 8805 5890 59  0000 L BNN
 F 2 "M17_soundcard:SM-B5" H 8975 6050 50  0001 C CNN
 F 3 "" H 8975 6050 50  0001 C CNN
 	1    8975 6050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:+5V #P+6
@@ -1350,7 +1350,7 @@ F 1 "+5V" V 8875 5550 59  0000 L BNN
 F 2 "" H 8975 5750 50  0001 C CNN
 F 3 "" H 8975 5750 50  0001 C CNN
 	1    8975 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:+5V #P+8
@@ -1361,7 +1361,7 @@ F 1 "+5V" V 12975 4750 59  0000 L BNN
 F 2 "" H 13075 4950 50  0001 C CNN
 F 3 "" H 13075 4950 50  0001 C CNN
 	1    13075 4950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND33
@@ -1372,7 +1372,7 @@ F 1 "GND" H 14275 6250 59  0000 L BNN
 F 2 "" H 14375 6350 50  0001 C CNN
 F 3 "" H 14375 6350 50  0001 C CNN
 	1    14375 6350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND31
@@ -1383,7 +1383,7 @@ F 1 "GND" H 13975 6250 59  0000 L BNN
 F 2 "" H 14075 6350 50  0001 C CNN
 F 3 "" H 14075 6350 50  0001 C CNN
 	1    14075 6350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C26
@@ -1394,7 +1394,7 @@ F 1 "22u/10V" H 14435 6465 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 14375 6650 50  0001 C CNN
 F 3 "" H 14375 6650 50  0001 C CNN
 	1    14375 6650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C24
@@ -1405,7 +1405,7 @@ F 1 "100n" H 14135 6465 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 14075 6650 50  0001 C CNN
 F 3 "" H 14075 6650 50  0001 C CNN
 	1    14075 6650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND29
@@ -1416,7 +1416,7 @@ F 1 "GND" H 13475 6650 59  0000 L BNN
 F 2 "" H 13575 6750 50  0001 C CNN
 F 3 "" H 13575 6750 50  0001 C CNN
 	1    13575 6750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:+5V #P+9
@@ -1427,7 +1427,7 @@ F 1 "+5V" V 14975 6750 59  0000 L BNN
 F 2 "" H 15075 6950 50  0001 C CNN
 F 3 "" H 15075 6950 50  0001 C CNN
 	1    15075 6950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND34
@@ -1438,7 +1438,7 @@ F 1 "GND" H 14275 7650 59  0000 L BNN
 F 2 "" H 14375 7750 50  0001 C CNN
 F 3 "" H 14375 7750 50  0001 C CNN
 	1    14375 7750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND32
@@ -1449,7 +1449,7 @@ F 1 "GND" H 13975 7650 59  0000 L BNN
 F 2 "" H 14075 7750 50  0001 C CNN
 F 3 "" H 14075 7750 50  0001 C CNN
 	1    14075 7750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C27
@@ -1460,7 +1460,7 @@ F 1 "22u/10V" H 14435 7165 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 14375 7350 50  0001 C CNN
 F 3 "" H 14375 7350 50  0001 C CNN
 	1    14375 7350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C25
@@ -1471,7 +1471,7 @@ F 1 "100n" H 14135 7165 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 14075 7350 50  0001 C CNN
 F 3 "" H 14075 7350 50  0001 C CNN
 	1    14075 7350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C17
@@ -1482,7 +1482,7 @@ F 1 "10u/10V" H 9035 6365 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 8975 6550 50  0001 C CNN
 F 3 "" H 8975 6550 50  0001 C CNN
 	1    8975 6550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C16
@@ -1493,7 +1493,7 @@ F 1 "100n" H 8635 6365 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 8575 6550 50  0001 C CNN
 F 3 "" H 8575 6550 50  0001 C CNN
 	1    8575 6550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND16
@@ -1504,7 +1504,7 @@ F 1 "GND" H 8475 7450 59  0000 L BNN
 F 2 "" H 8575 7550 50  0001 C CNN
 F 3 "" H 8575 7550 50  0001 C CNN
 	1    8575 7550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND23
@@ -1515,7 +1515,7 @@ F 1 "GND" H 11675 4250 59  0000 L BNN
 F 2 "" H 11775 4350 50  0001 C CNN
 F 3 "" H 11775 4350 50  0001 C CNN
 	1    11775 4350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C19
@@ -1526,7 +1526,7 @@ F 1 "22u/10V" H 11835 4765 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 11775 4950 50  0001 C CNN
 F 3 "" H 11775 4950 50  0001 C CNN
 	1    11775 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND26
@@ -1537,7 +1537,7 @@ F 1 "GND" H 12375 4250 59  0000 L BNN
 F 2 "" H 12475 4350 50  0001 C CNN
 F 3 "" H 12475 4350 50  0001 C CNN
 	1    12475 4350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND24
@@ -1548,7 +1548,7 @@ F 1 "GND" H 11875 4250 59  0000 L BNN
 F 2 "" H 11975 4350 50  0001 C CNN
 F 3 "" H 11975 4350 50  0001 C CNN
 	1    11975 4350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND22
@@ -1559,7 +1559,7 @@ F 1 "GND" H 11475 4250 59  0000 L BNN
 F 2 "" H 11575 4350 50  0001 C CNN
 F 3 "" H 11575 4350 50  0001 C CNN
 	1    11575 4350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C21
@@ -1570,7 +1570,7 @@ F 1 "100n" H 12535 4465 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 12475 4650 50  0001 C CNN
 F 3 "" H 12475 4650 50  0001 C CNN
 	1    12475 4650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C20
@@ -1581,7 +1581,7 @@ F 1 "10u/10V" H 12035 4465 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 11975 4650 50  0001 C CNN
 F 3 "" H 11975 4650 50  0001 C CNN
 	1    11975 4650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:C-EUC0805 C18
@@ -1592,7 +1592,7 @@ F 1 "100n" H 11635 5065 59  0000 L BNN
 F 2 "M17_soundcard:C0805" H 11575 5250 50  0001 C CNN
 F 3 "" H 11575 5250 50  0001 C CNN
 	1    11575 5250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND20
@@ -1603,7 +1603,7 @@ F 1 "GND" H 11275 4250 59  0000 L BNN
 F 2 "" H 11375 4350 50  0001 C CNN
 F 3 "" H 11375 4350 50  0001 C CNN
 	1    11375 4350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND21
@@ -1614,7 +1614,7 @@ F 1 "GND" H 11275 9350 59  0000 L BNN
 F 2 "" H 11375 9450 50  0001 C CNN
 F 3 "" H 11375 9450 50  0001 C CNN
 	1    11375 9450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:GND #GND19
@@ -1625,7 +1625,7 @@ F 1 "GND" H 10675 9350 59  0000 L BNN
 F 2 "" H 10775 9450 50  0001 C CNN
 F 3 "" H 10775 9450 50  0001 C CNN
 	1    10775 9450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M17_soundcard-eagle-import:CM6206 U1
@@ -1636,7 +1636,7 @@ F 1 "CM6206" H 11275 7450 50  0001 C CNN
 F 2 "M17_soundcard:LQFP-48" H 11275 7450 50  0001 C CNN
 F 3 "" H 11275 7450 50  0001 C CNN
 	1    11275 7450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 14975 7150 0    50   ~ 0
 DP
